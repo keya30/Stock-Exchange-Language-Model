@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Checkpoints and models
+#checkpoints/
+*.h5
+*.weights.h5
+*.json
+
+# Logs and outputs
+output.txt
+output2.txt
+temp_corpus.txt
+training_history.json

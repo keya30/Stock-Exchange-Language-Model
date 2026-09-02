@@ -1,0 +1,7976 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<PAD>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<UNK>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "<UNK>",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<PAD>": 0,
+      "<UNK>": 1,
+      "&": 2,
+      "'": 3,
+      "(": 4,
+      ")": 5,
+      ",": 6,
+      "-": 7,
+      ".": 8,
+      "/": 9,
+      "0": 10,
+      "1": 11,
+      "2": 12,
+      "3": 13,
+      "4": 14,
+      "5": 15,
+      "7": 16,
+      "8": 17,
+      "9": 18,
+      ":": 19,
+      "A": 20,
+      "B": 21,
+      "C": 22,
+      "D": 23,
+      "E": 24,
+      "F": 25,
+      "G": 26,
+      "H": 27,
+      "I": 28,
+      "J": 29,
+      "K": 30,
+      "L": 31,
+      "M": 32,
+      "N": 33,
+      "O": 34,
+      "P": 35,
+      "Q": 36,
+      "R": 37,
+      "S": 38,
+      "T": 39,
+      "U": 40,
+      "V": 41,
+      "W": 42,
+      "X": 43,
+      "Y": 44,
+      "a": 45,
+      "b": 46,
+      "c": 47,
+      "d": 48,
+      "e": 49,
+      "f": 50,
+      "g": 51,
+      "h": 52,
+      "i": 53,
+      "j": 54,
+      "k": 55,
+      "l": 56,
+      "m": 57,
+      "n": 58,
+      "o": 59,
+      "p": 60,
+      "q": 61,
+      "r": 62,
+      "s": 63,
+      "t": 64,
+      "u": 65,
+      "v": 66,
+      "w": 67,
+      "x": 68,
+      "y": 69,
+      "z": 70,
+      "in": 71,
+      "an": 72,
+      "es": 73,
+      "th": 74,
+      "er": 75,
+      "ar": 76,
+      "or": 77,
+      "on": 78,
+      "al": 79,
+      "en": 80,
+      "at": 81,
+      "ic": 82,
+      "ing": 83,
+      "the": 84,
+      "to": 85,
+      "re": 86,
+      "and": 87,
+      "it": 88,
+      "is": 89,
+      "ed": 90,
+      "ent": 91,
+      "as": 92,
+      "tr": 93,
+      "om": 94,
+      "ion": 95,
+      "et": 96,
+      "est": 97,
+      "of": 98,
+      "ec": 99,
+      "pr": 100,
+      "ur": 101,
+      "ol": 102,
+      "inv": 103,
+      "com": 104,
+      "ly": 105,
+      "mar": 106,
+      "ad": 107,
+      "for": 108,
+      "invest": 109,
+      "ket": 110,
+      "ow": 111,
+      "id": 112,
+      "are": 113,
+      "ck": 114,
+      "ch": 115,
+      "ve": 116,
+      "ex": 117,
+      "market": 118,
+      "ies": 119,
+      "st": 120,
+      "il": 121,
+      "ment": 122,
+      "trad": 123,
+      "ver": 124,
+      "tock": 125,
+      "pan": 126,
+      "ation": 127,
+      "pric": 128,
+      "ge": 129,
+      "he": 130,
+      "ig": 131,
+      "ou": 132,
+      "se": 133,
+      "ors": 134,
+      "per": 135,
+      "stock": 136,
+      "im": 137,
+      "ate": 138,
+      "ac": 139,
+      "ers": 140,
+      "if": 141,
+      "le": 142,
+      "qu": 143,
+      "The": 144,
+      "sh": 145,
+      "anc": 146,
+      "compan": 147,
+      "ity": 148,
+      "ul": 149,
+      "ay": 150,
+      "ial": 151,
+      "de": 152,
+      "ical": 153,
+      "ap": 154,
+      "con": 155,
+      "wh": 156,
+      "mo": 157,
+      "price": 158,
+      "nd": 159,
+      "os": 160,
+      "ter": 161,
+      "ear": 162,
+      "ut": 163,
+      "investors": 164,
+      "all": 165,
+      "trading": 166,
+      "ir": 167,
+      "por": 168,
+      "that": 169,
+      "by": 170,
+      "me": 171,
+      "su": 172,
+      "inc": 173,
+      "ant": 174,
+      "iv": 175,
+      "ions": 176,
+      "ith": 177,
+      "us": 178,
+      "ess": 179,
+      "chan": 180,
+      "fin": 181,
+      "ive": 182,
+      "over": 183,
+      "end": 184,
+      "ect": 185,
+      "form": 186,
+      "ma": 187,
+      "ind": 188,
+      "pro": 189,
+      "act": 190,
+      "age": 191,
+      "ll": 192,
+      "lar": 193,
+      "ty": 194,
+      "igh": 195,
+      "financ": 196,
+      "li": 197,
+      "ris": 198,
+      "with": 199,
+      "ities": 200,
+      "cap": 201,
+      "gr": 202,
+      "ue": 203,
+      "und": 204,
+      "ings": 205,
+      "ist": 206,
+      "port": 207,
+      "bu": 208,
+      "io": 209,
+      "op": 210,
+      "companies": 211,
+      "sell": 212,
+      "lu": 213,
+      "mon": 214,
+      "rat": 215,
+      "company": 216,
+      "ically": 217,
+      "ab": 218,
+      "can": 219,
+      "sp": 220,
+      "financial": 221,
+      "iz": 222,
+      "nings": 223,
+      "oc": 224,
+      "enc": 225,
+      "old": 226,
+      "own": 227,
+      "ign": 228,
+      "ific": 229,
+      "ivid": 230,
+      "buy": 231,
+      "low": 232,
+      "str": 233,
+      "val": 234,
+      "red": 235,
+      "investment": 236,
+      "exchan": 237,
+      "share": 238,
+      "ance": 239,
+      "typ": 240,
+      "be": 241,
+      "lo": 242,
+      "sec": 243,
+      "tw": 244,
+      "uc": 245,
+      "ass": 246,
+      "out": 247,
+      "inclu": 248,
+      "cur": 249,
+      "high": 250,
+      "aly": 251,
+      "its": 252,
+      "ide": 253,
+      "markets": 254,
+      "prices": 255,
+      "earnings": 256,
+      "cent": 257,
+      "cess": 258,
+      "day": 259,
+      "fr": 260,
+      "ha": 261,
+      "sign": 262,
+      "we": 263,
+      "ares": 264,
+      "one": 265,
+      "shares": 266,
+      "risk": 267,
+      "Com": 268,
+      "ds": 269,
+      "fer": 270,
+      "ges": 271,
+      "gest": 272,
+      "ke": 273,
+      "ot": 274,
+      "tim": 275,
+      "owth": 276,
+      "exp": 277,
+      "ill": 278,
+      "ations": 279,
+      "typically": 280,
+      "00": 281,
+      "divid": 282,
+      "hold": 283,
+      "ure": 284,
+      "analy": 285,
+      "ital": 286,
+      "ures": 287,
+      "indic": 288,
+      "capital": 289,
+      "cr": 290,
+      "dec": 291,
+      "em": 292,
+      "ff": 293,
+      "ld": 294,
+      "ns": 295,
+      "vol": 296,
+      "ong": 297,
+      "their": 298,
+      "ret": 299,
+      "urities": 300,
+      "ments": 301,
+      "stocks": 302,
+      "when": 303,
+      "oss": 304,
+      "ificant": 305,
+      "have": 306,
+      "significant": 307,
+      "dol": 308,
+      "equ": 309,
+      "gin": 310,
+      "man": 311,
+      "mor": 312,
+      "ici": 313,
+      "ech": 314,
+      "ile": 315,
+      "percent": 316,
+      "growth": 317,
+      "include": 318,
+      "from": 319,
+      "more": 320,
+      "ack": 321,
+      "ail": 322,
+      "bl": 323,
+      "fund": 324,
+      "gh": 325,
+      "gen": 326,
+      "oth": 327,
+      "ts": 328,
+      "um": 329,
+      "ven": 330,
+      "wor": 331,
+      "ates": 332,
+      "ated": 333,
+      "ich": 334,
+      "requ": 335,
+      "uring": 336,
+      "ility": 337,
+      "ough": 338,
+      "cons": 339,
+      "which": 340,
+      "used": 341,
+      "able": 342,
+      "asset": 343,
+      "Mar": 344,
+      "Stock": 345,
+      "ain": 346,
+      "aver": 347,
+      "bas": 348,
+      "ce": 349,
+      "cas": 350,
+      "fol": 351,
+      "gy": 352,
+      "has": 353,
+      "ne": 354,
+      "our": 355,
+      "pos": 356,
+      "ves": 357,
+      "als": 358,
+      "reas": 359,
+      "come": 360,
+      "comp": 361,
+      "margin": 362,
+      "investor": 363,
+      "ider": 364,
+      "imp": 365,
+      "ular": 366,
+      "increas": 367,
+      "value": 368,
+      "sharehold": 369,
+      "dollar": 370,
+      "echn": 371,
+      "gener": 372,
+      "Ex": 373,
+      "In": 374,
+      "av": 375,
+      "co": 376,
+      "dif": 377,
+      "ese": 378,
+      "art": 379,
+      "anding": 380,
+      "econ": 381,
+      "investing": 382,
+      "vel": 383,
+      "trade": 384,
+      "perform": 385,
+      "such": 386,
+      "change": 387,
+      "like": 388,
+      "securities": 389,
+      "two": 390,
+      "time": 391,
+      "equity": 392,
+      "cash": 393,
+      "posit": 394,
+      "ag": 395,
+      "cal": 396,
+      "cou": 397,
+      "di": 398,
+      "dis": 399,
+      "ib": 400,
+      "kn": 401,
+      "lin": 402,
+      "min": 403,
+      "may": 404,
+      "oper": 405,
+      "tend": 406,
+      "un": 407,
+      "inter": 408,
+      "income": 409,
+      "than": 410,
+      "ere": 411,
+      "ard": 412,
+      "ics": 413,
+      "read": 414,
+      "common": 415,
+      "sts": 416,
+      "traded": 417,
+      "most": 418,
+      "ratio": 419,
+      "ency": 420,
+      "exchanges": 421,
+      "expect": 422,
+      "dividend": 423,
+      "retur": 424,
+      "manage": 425,
+      "shareholders": 426,
+      "differ": 427,
+      "econom": 428,
+      "known": 429,
+      "500": 430,
+      "SE": 431,
+      "Th": 432,
+      "ach": 433,
+      "bet": 434,
+      "during": 435,
+      "eff": 436,
+      "fl": 437,
+      "ip": 438,
+      "oo": 439,
+      "res": 440,
+      "rough": 441,
+      "sis": 442,
+      "ving": 443,
+      "int": 444,
+      "through": 445,
+      "ort": 446,
+      "orpor": 447,
+      "them": 448,
+      "ree": 449,
+      "tran": 450,
+      "prof": 451,
+      "standing": 452,
+      "panies": 453,
+      "mod": 454,
+      "move": 455,
+      "meas": 456,
+      "largest": 457,
+      "portfol": 458,
+      "selling": 459,
+      "rates": 460,
+      "spec": 461,
+      "occur": 462,
+      "exchange": 463,
+      "uct": 464,
+      "Companies": 465,
+      "dollars": 466,
+      "Exchange": 467,
+      "management": 468,
+      "economic": 469,
+      "orporate": 470,
+      "),": 471,
+      "am": 472,
+      "au": 473,
+      "ding": 474,
+      "ders": 475,
+      "fut": 476,
+      "hist": 477,
+      "king": 478,
+      "pu": 479,
+      "pat": 480,
+      "pre": 481,
+      "sy": 482,
+      "ser": 483,
+      "ume": 484,
+      "wide": 485,
+      "ory": 486,
+      "ond": 487,
+      "atility": 488,
+      "reg": 489,
+      "report": 490,
+      "reven": 491,
+      "ential": 492,
+      "ional": 493,
+      "olves": 494,
+      "involves": 495,
+      "perio": 496,
+      "quid": 497,
+      "where": 498,
+      "term": 499,
+      "overn": 500,
+      "liquid": 501,
+      "ized": 502,
+      "ence": 503,
+      "strate": 504,
+      "strong": 505,
+      "valu": 506,
+      "lose": 507,
+      "curr": 508,
+      "analysis": 509,
+      "decis": 510,
+      "acks": 511,
+      "blic": 512,
+      "funds": 513,
+      "requi": 514,
+      "Market": 515,
+      "average": 516,
+      "based": 517,
+      "coun": 518,
+      "interest": 519,
+      "return": 520,
+      "public": 521,
+      "patter": 522,
+      "ET": 523,
+      "SD": 524,
+      "Wh": 525,
+      "bt": 526,
+      "cl": 527,
+      "close": 528,
+      "dit": 529,
+      "el": 530,
+      "ful": 531,
+      "fall": 532,
+      "ggest": 533,
+      "hour": 534,
+      "ied": 535,
+      "ks": 536,
+      "pl": 537,
+      "pay": 538,
+      "part": 539,
+      "sect": 540,
+      "tal": 541,
+      "ten": 542,
+      "techn": 543,
+      "inform": 544,
+      "ther": 545,
+      "orders": 546,
+      "alth": 547,
+      "ally": 548,
+      "ating": 549,
+      "ative": 550,
+      "total": 551,
+      "enty": 552,
+      "ecut": 553,
+      "execut": 554,
+      "ous": 555,
+      "ified": 556,
+      "debt": 557,
+      "appro": 558,
+      "moving": 559,
+      "suggest": 560,
+      "process": 561,
+      "large": 562,
+      "ight": 563,
+      "under": 564,
+      "spread": 565,
+      "ization": 566,
+      "twenty": 567,
+      "days": 568,
+      "illion": 569,
+      "volume": 570,
+      "ailable": 571,
+      "world": 572,
+      "consider": 573,
+      "new": 574,
+      "impact": 575,
+      "available": 576,
+      "effici": 577,
+      "trans": 578,
+      "profit": 579,
+      "movements": 580,
+      "measures": 581,
+      "portfolio": 582,
+      "revenue": 583,
+      "liquidity": 584,
+      "strategy": 585,
+      "decisions": 586,
+      "ETF": 587,
+      "hours": 588,
+      "Und": 589,
+      "VI": 590,
+      "ame": 591,
+      "ber": 592,
+      "best": 593,
+      "cul": 594,
+      "corporate": 595,
+      "ey": 596,
+      "fers": 597,
+      "fif": 598,
+      "fir": 599,
+      "gu": 600,
+      "gor": 601,
+      "govern": 602,
+      "how": 603,
+      "iment": 604,
+      "loss": 605,
+      "mic": 606,
+      "net": 607,
+      "not": 608,
+      "od": 609,
+      "pp": 610,
+      "pt": 611,
+      "ro": 612,
+      "sion": 613,
+      "side": 614,
+      "ust": 615,
+      "yp": 616,
+      "ins": 617,
+      "ary": 618,
+      "they": 619,
+      "entiment": 620,
+      "ast": 621,
+      "estate": 622,
+      "pri": 623,
+      "olo": 624,
+      "stem": 625,
+      "ational": 626,
+      "accoun": 627,
+      "short": 628,
+      "while": 629,
+      "uses": 630,
+      "index": 631,
+      "including": 632,
+      "indicat": 633,
+      "capitalization": 634,
+      "declin": 635,
+      "volatility": 636,
+      "margins": 637,
+      "performance": 638,
+      "calcul": 639,
+      "diver": 640,
+      "commonly": 641,
+      "dividends": 642,
+      "SEC": 643,
+      "patterns": 644,
+      "suggests": 645,
+      "Under": 646,
+      "governance": 647,
+      "20": 648,
+      "AQ": 649,
+      "ASD": 650,
+      "Fed": 651,
+      "Gr": 652,
+      "NASD": 653,
+      "Techn": 654,
+      "ament": 655,
+      "bon": 656,
+      "bal": 657,
+      "bid": 658,
+      "bear": 659,
+      "but": 660,
+      "backs": 661,
+      "ct": 662,
+      "cre": 663,
+      "ever": 664,
+      "five": 665,
+      "go": 666,
+      "ging": 667,
+      "hund": 668,
+      "ios": 669,
+      "la": 670,
+      "lp": 671,
+      "long": 672,
+      "mer": 673,
+      "mand": 674,
+      "nat": 675,
+      "num": 676,
+      "pred": 677,
+      "soc": 678,
+      "will": 679,
+      "ward": 680,
+      "yi": 681,
+      "year": 682,
+      "arr": 683,
+      "ices": 684,
+      "top": 685,
+      "real": 686,
+      "refers": 687,
+      "ish": 688,
+      "ents": 689,
+      "ases": 690,
+      "tract": 691,
+      "urity": 692,
+      "commod": 693,
+      "exce": 694,
+      "trades": 695,
+      "traders": 696,
+      "ound": 697,
+      "level": 698,
+      "ull": 699,
+      "ult": 700,
+      "making": 701,
+      "prov": 702,
+      "finance": 703,
+      "without": 704,
+      "opt": 705,
+      "ification": 706,
+      "buying": 707,
+      "reduc": 708,
+      "investments": 709,
+      "been": 710,
+      "ween": 711,
+      "wealth": 712,
+      "dividing": 713,
+      "other": 714,
+      "assets": 715,
+      "increasing": 716,
+      "different": 717,
+      "These": 718,
+      "between": 719,
+      "occurs": 720,
+      "future": 721,
+      "system": 722,
+      "widely": 723,
+      "currency": 724,
+      "require": 725,
+      "publicly": 726,
+      "sectors": 727,
+      "information": 728,
+      "execute": 729,
+      "considered": 730,
+      "efficient": 731,
+      "calculated": 732,
+      "divers": 733,
+      "Understanding": 734,
+      "NASDAQ": 735,
+      "bonds": 736,
+      "hundred": 737,
+      "exceed": 738,
+      ").": 739,
+      "200": 740,
+      "An": 741,
+      "App": 742,
+      "Con": 743,
+      "DP": 744,
+      "During": 745,
+      "GDP": 746,
+      "How": 747,
+      "It": 748,
+      "Le": 749,
+      "OE": 750,
+      "Qu": 751,
+      "Sec": 752,
+      "Tr": 753,
+      "Un": 754,
+      "ak": 755,
+      "ages": 756,
+      "ather": 757,
+      "bi": 758,
+      "bec": 759,
+      "bus": 760,
+      "bro": 761,
+      "bull": 762,
+      "down": 763,
+      "evalu": 764,
+      "flu": 765,
+      "flow": 766,
+      "four": 767,
+      "ger": 768,
+      "gies": 769,
+      "give": 770,
+      "hed": 771,
+      "ia": 772,
+      "ily": 773,
+      "ker": 774,
+      "les": 775,
+      "list": 776,
+      "ms": 777,
+      "mat": 778,
+      "mis": 779,
+      "po": 780,
+      "pur": 781,
+      "pow": 782,
+      "pop": 783,
+      "plo": 784,
+      "ros": 785,
+      "same": 786,
+      "sentiment": 787,
+      "te": 788,
+      "ual": 789,
+      "vi": 790,
+      "vest": 791,
+      "vant": 792,
+      "wat": 793,
+      "way": 794,
+      "inst": 795,
+      "iness": 796,
+      "tho": 797,
+      "this": 798,
+      "thir": 799,
+      "these": 800,
+      "ern": 801,
+      "ermin": 802,
+      "icular": 803,
+      "tocurrency": 804,
+      "recent": 805,
+      "rect": 806,
+      "ited": 807,
+      "itical": 808,
+      "itut": 809,
+      "ask": 810,
+      "ason": 811,
+      "trillion": 812,
+      "etermin": 813,
+      "often": 814,
+      "ural": 815,
+      "ols": 816,
+      "mary": 817,
+      "ident": 818,
+      "ched": 819,
+      "state": 820,
+      "ilities": 821,
+      "verage": 822,
+      "pricing": 823,
+      "help": 824,
+      "imum": 825,
+      "ify": 826,
+      "demand": 827,
+      "app": 828,
+      "conver": 829,
+      "condit": 830,
+      "ires": 831,
+      "metr": 832,
+      "ithmic": 833,
+      "ustr": 834,
+      "overall": 835,
+      "forms": 836,
+      "make": 837,
+      "maint": 838,
+      "mathem": 839,
+      "individ": 840,
+      "prod": 841,
+      "actions": 842,
+      "rising": 843,
+      "optim": 844,
+      "spl": 845,
+      "ize": 846,
+      "buybacks": 847,
+      "lower": 848,
+      "lobal": 849,
+      "security": 850,
+      "outstanding": 851,
+      "higher": 852,
+      "wee": 853,
+      "analysts": 854,
+      "indicate": 855,
+      "ffect": 856,
+      "fundament": 857,
+      "work": 858,
+      "requires": 859,
+      "ainst": 860,
+      "also": 861,
+      "increase": 862,
+      "generally": 863,
+      "Invest": 864,
+      "position": 865,
+      "against": 866,
+      "direct": 867,
+      "expected": 868,
+      "inte": 869,
+      "specified": 870,
+      "ucture": 871,
+      "ause": 872,
+      "histor": 873,
+      "history": 874,
+      "regular": 875,
+      "reports": 876,
+      "period": 877,
+      "periods": 878,
+      "While": 879,
+      "class": 880,
+      "closely": 881,
+      "particular": 882,
+      "approach": 883,
+      "spreads": 884,
+      "ETFs": 885,
+      "VIX": 886,
+      "fifty": 887,
+      "gorithmic": 888,
+      "yptocurrency": 889,
+      "primary": 890,
+      "ology": 891,
+      "account": 892,
+      "indicators": 893,
+      "number": 894,
+      "social": 895,
+      "years": 896,
+      "options": 897,
+      "diversification": 898,
+      "exceeding": 899,
+      "Apple": 900,
+      "However": 901,
+      "because": 902,
+      "business": 903,
+      "purch": 904,
+      "power": 905,
+      "popular": 906,
+      "watched": 907,
+      "institut": 908,
+      "conditions": 909,
+      "mathemat": 910,
+      "institutional": 911,
+      "As": 912,
+      "Bu": 913,
+      "Cr": 914,
+      "Day": 915,
+      "EI": 916,
+      "EP": 917,
+      "Ear": 918,
+      "IP": 919,
+      "Ind": 920,
+      "Key": 921,
+      "Mod": 922,
+      "NY": 923,
+      "PM": 924,
+      "Pr": 925,
+      "ROE": 926,
+      "REI": 927,
+      "Sh": 928,
+      "St": 929,
+      "Ts": 930,
+      "Tes": 931,
+      "Vol": 932,
+      "af": 933,
+      "ax": 934,
+      "ais": 935,
+      "air": 936,
+      "amon": 937,
+      "aily": 938,
+      "affect": 939,
+      "bor": 940,
+      "boo": 941,
+      "billion": 942,
+      "cu": 943,
+      "cy": 944,
+      "call": 945,
+      "ccess": 946,
+      "determin": 947,
+      "daily": 948,
+      "ev": 949,
+      "ew": 950,
+      "eign": 951,
+      "eld": 952,
+      "fac": 953,
+      "fact": 954,
+      "free": 955,
+      "found": 956,
+      "gn": 957,
+      "giv": 958,
+      "gold": 959,
+      "gain": 960,
+      "goo": 961,
+      "ix": 962,
+      "ian": 963,
+      "jor": 964,
+      "lim": 965,
+      "med": 966,
+      "mall": 967,
+      "obl": 968,
+      "put": 969,
+      "pot": 970,
+      "ru": 971,
+      "ran": 972,
+      "row": 973,
+      "rate": 974,
+      "right": 975,
+      "small": 976,
+      "tin": 977,
+      "tur": 978,
+      "tax": 979,
+      "ues": 980,
+      "var": 981,
+      "ved": 982,
+      "vir": 983,
+      "whe": 984,
+      "ys": 985,
+      "ine": 986,
+      "intr": 987,
+      "influ": 988,
+      "ann": 989,
+      "any": 990,
+      "ark": 991,
+      "arter": 992,
+      "onic": 993,
+      "ens": 994,
+      "atist": 995,
+      "atforms": 996,
+      "ict": 997,
+      "react": 998,
+      "recess": 999,
+      "reach": 1000,
+      "iter": 1001,
+      "ently": 1002,
+      "trig": 1003,
+      "trib": 1004,
+      "tracks": 1005,
+      "tructure": 1006,
+      "tronic": 1007,
+      "ome": 1008,
+      "etary": 1009,
+      "offer": 1010,
+      "ectronic": 1011,
+      "pres": 1012,
+      "pract": 1013,
+      "ole": 1014,
+      "oll": 1015,
+      "olitical": 1016,
+      "comm": 1017,
+      "advant": 1018,
+      "extend": 1019,
+      "statist": 1020,
+      "geop": 1021,
+      "ould": 1022,
+      "sel": 1023,
+      "sely": 1024,
+      "season": 1025,
+      "import": 1026,
+      "access": 1027,
+      "qual": 1028,
+      "should": 1029,
+      "del": 1030,
+      "devel": 1031,
+      "conf": 1032,
+      "consu": 1033,
+      "contract": 1034,
+      "contin": 1035,
+      "model": 1036,
+      "earch": 1037,
+      "allow": 1038,
+      "metho": 1039,
+      "sub": 1040,
+      "success": 1041,
+      "ives": 1042,
+      "ively": 1043,
+      "ends": 1044,
+      "industr": 1045,
+      "rise": 1046,
+      "within": 1047,
+      "grow": 1048,
+      "istic": 1049,
+      "portun": 1050,
+      "opportun": 1051,
+      "money": 1052,
+      "monetary": 1053,
+      "ratios": 1054,
+      "second": 1055,
+      "outperform": 1056,
+      "Common": 1057,
+      "ferred": 1058,
+      "indices": 1059,
+      "indicates": 1060,
+      "cross": 1061,
+      "retail": 1062,
+      "significantly": 1063,
+      "many": 1064,
+      "icip": 1065,
+      "others": 1066,
+      "cost": 1067,
+      "costs": 1068,
+      "cogn": 1069,
+      "positions": 1070,
+      "disc": 1071,
+      "distrib": 1072,
+      "ible": 1073,
+      "ibility": 1074,
+      "minimum": 1075,
+      "operate": 1076,
+      "operates": 1077,
+      "difference": 1078,
+      "This": 1079,
+      "flation": 1080,
+      "iple": 1081,
+      "research": 1082,
+      "futures": 1083,
+      "serve": 1084,
+      "current": 1085,
+      "required": 1086,
+      "When": 1087,
+      "electronic": 1088,
+      "falls": 1089,
+      "payment": 1090,
+      "technology": 1091,
+      "transactions": 1092,
+      "first": 1093,
+      "losses": 1094,
+      "declining": 1095,
+      "Growth": 1096,
+      "Technical": 1097,
+      "bearish": 1098,
+      "natural": 1099,
+      "predict": 1100,
+      "willing": 1101,
+      "yield": 1102,
+      "commodities": 1103,
+      "levels": 1104,
+      "provide": 1105,
+      "requirements": 1106,
+      "Analy": 1107,
+      "Level": 1108,
+      "Securities": 1109,
+      "United": 1110,
+      "biases": 1111,
+      "broker": 1112,
+      "downtur": 1113,
+      "hedging": 1114,
+      "mission": 1115,
+      "pools": 1116,
+      "ploy": 1117,
+      "teen": 1118,
+      "thirty": 1119,
+      "identify": 1120,
+      "metrics": 1121,
+      "maintain": 1122,
+      "produc": 1123,
+      "splits": 1124,
+      "fundamentals": 1125,
+      "integr": 1126,
+      "historically": 1127,
+      "particularly": 1128,
+      "mathematical": 1129,
+      "EPS": 1130,
+      "Earnings": 1131,
+      "IPO": 1132,
+      "NYSE": 1133,
+      "REITs": 1134,
+      "Tesla": 1135,
+      "after": 1136,
+      "among": 1137,
+      "borrow": 1138,
+      "events": 1139,
+      "goods": 1140,
+      "oblig": 1141,
+      "potential": 1142,
+      "viron": 1143,
+      "trigger": 1144,
+      "practices": 1145,
+      "geopolitical": 1146,
+      "important": 1147,
+      "develop": 1148,
+      "consumer": 1149,
+      "contracts": 1150,
+      "successful": 1151,
+      "opportunities": 1152,
+      "distribut": 1153,
+      "downturns": 1154,
+      "Al": 1155,
+      "Au": 1156,
+      "Ama": 1157,
+      "Average": 1158,
+      "APM": 1159,
+      "Bear": 1160,
+      "Bond": 1161,
+      "Corporate": 1162,
+      "CAPM": 1163,
+      "Divid": 1164,
+      "Dark": 1165,
+      "ES": 1166,
+      "Fut": 1167,
+      "Fund": 1168,
+      "Goo": 1169,
+      "Govern": 1170,
+      "Global": 1171,
+      "High": 1172,
+      "Ja": 1173,
+      "Jo": 1174,
+      "Mo": 1175,
+      "Mer": 1176,
+      "Mic": 1177,
+      "May": 1178,
+      "New": 1179,
+      "Opt": 1180,
+      "PY": 1181,
+      "QQ": 1182,
+      "Re": 1183,
+      "Se": 1184,
+      "Sw": 1185,
+      "Sentiment": 1186,
+      "Stop": 1187,
+      "USD": 1188,
+      "Val": 1189,
+      "Wor": 1190,
+      "Yor": 1191,
+      "ath": 1192,
+      "away": 1193,
+      "ban": 1194,
+      "bre": 1195,
+      "ble": 1196,
+      "back": 1197,
+      "both": 1198,
+      "bond": 1199,
+      "ces": 1200,
+      "cate": 1201,
+      "cle": 1202,
+      "crat": 1203,
+      "carr": 1204,
+      "do": 1205,
+      "dy": 1206,
+      "des": 1207,
+      "der": 1208,
+      "dat": 1209,
+      "dom": 1210,
+      "duct": 1211,
+      "ee": 1212,
+      "eing": 1213,
+      "each": 1214,
+      "fear": 1215,
+      "foc": 1216,
+      "flo": 1217,
+      "fair": 1218,
+      "fix": 1219,
+      "gas": 1220,
+      "gence": 1221,
+      "gative": 1222,
+      "global": 1223,
+      "hal": 1224,
+      "hand": 1225,
+      "hab": 1226,
+      "hns": 1227,
+      "hyp": 1228,
+      "hys": 1229,
+      "iation": 1230,
+      "iqu": 1231,
+      "just": 1232,
+      "kly": 1233,
+      "kers": 1234,
+      "ler": 1235,
+      "lic": 1236,
+      "less": 1237,
+      "last": 1238,
+      "mi": 1239,
+      "mu": 1240,
+      "mill": 1241,
+      "mech": 1242,
+      "must": 1243,
+      "mult": 1244,
+      "non": 1245,
+      "ning": 1246,
+      "near": 1247,
+      "nam": 1248,
+      "ok": 1249,
+      "oid": 1250,
+      "ove": 1251,
+      "oil": 1252,
+      "oard": 1253,
+      "pon": 1254,
+      "pand": 1255,
+      "pol": 1256,
+      "pport": 1257,
+      "phys": 1258,
+      "rul": 1259,
+      "rot": 1260,
+      "ross": 1261,
+      "rais": 1262,
+      "role": 1263,
+      "sw": 1264,
+      "sal": 1265,
+      "sing": 1266,
+      "set": 1267,
+      "sim": 1268,
+      "sess": 1269,
+      "simp": 1270,
+      "stop": 1271,
+      "size": 1272,
+      "some": 1273,
+      "tre": 1274,
+      "tect": 1275,
+      "tem": 1276,
+      "up": 1277,
+      "use": 1278,
+      "ude": 1279,
+      "uals": 1280,
+      "vices": 1281,
+      "want": 1282,
+      "wider": 1283,
+      "xim": 1284,
+      "ze": 1285,
+      "zon": 1286,
+      "into": 1287,
+      "instr": 1288,
+      "inflation": 1289,
+      "aning": 1290,
+      "angu": 1291,
+      "esis": 1292,
+      "thor": 1293,
+      "though": 1294,
+      "three": 1295,
+      "thous": 1296,
+      "ert": 1297,
+      "eral": 1298,
+      "erve": 1299,
+      "arent": 1300,
+      "arning": 1301,
+      "oring": 1302,
+      "alers": 1303,
+      "alone": 1304,
+      "algorithmic": 1305,
+      "ensu": 1306,
+      "enges": 1307,
+      "environ": 1308,
+      "atic": 1309,
+      "icy": 1310,
+      "ickly": 1311,
+      "theory": 1312,
+      "tomat": 1313,
+      "toler": 1314,
+      "rel": 1315,
+      "reve": 1316,
+      "rele": 1317,
+      "reli": 1318,
+      "rece": 1319,
+      "refl": 1320,
+      "referred": 1321,
+      "recogn": 1322,
+      "ands": 1323,
+      "ition": 1324,
+      "itial": 1325,
+      "itive": 1326,
+      "itative": 1327,
+      "ented": 1328,
+      "asing": 1329,
+      "aster": 1330,
+      "track": 1331,
+      "ett": 1332,
+      "estim": 1333,
+      "oft": 1334,
+      "princ": 1335,
+      "priv": 1336,
+      "comb": 1337,
+      "lying": 1338,
+      "addit": 1339,
+      "fore": 1340,
+      "forex": 1341,
+      "forward": 1342,
+      "iders": 1343,
+      "idance": 1344,
+      "char": 1345,
+      "chall": 1346,
+      "chart": 1347,
+      "chine": 1348,
+      "exper": 1349,
+      "exist": 1350,
+      "excess": 1351,
+      "exibility": 1352,
+      "extre": 1353,
+      "stand": 1354,
+      "stim": 1355,
+      "ilar": 1356,
+      "ilit": 1357,
+      "mental": 1358,
+      "veral": 1359,
+      "versely": 1360,
+      "panic": 1361,
+      "pants": 1362,
+      "panese": 1363,
+      "health": 1364,
+      "oun": 1365,
+      "seven": 1366,
+      "seeing": 1367,
+      "several": 1368,
+      "ately": 1369,
+      "acqu": 1370,
+      "across": 1371,
+      "lement": 1372,
+      "leverage": 1373,
+      "learning": 1374,
+      "quant": 1375,
+      "quarter": 1376,
+      "quickly": 1377,
+      "ulation": 1378,
+      "ults": 1379,
+      "dep": 1380,
+      "consec": 1381,
+      "conce": 1382,
+      "conduct": 1383,
+      "osure": 1384,
+      "utive": 1385,
+      "utilities": 1386,
+      "alloc": 1387,
+      "ircu": 1388,
+      "meet": 1389,
+      "meaning": 1390,
+      "supp": 1391,
+      "support": 1392,
+      "ants": 1393,
+      "ivity": 1394,
+      "essential": 1395,
+      "overeign": 1396,
+      "formed": 1397,
+      "formation": 1398,
+      "formul": 1399,
+      "formations": 1400,
+      "major": 1401,
+      "makers": 1402,
+      "machine": 1403,
+      "protect": 1404,
+      "activity": 1405,
+      "llig": 1406,
+      "liab": 1407,
+      "rises": 1408,
+      "grown": 1409,
+      "gross": 1410,
+      "isted": 1411,
+      "istently": 1412,
+      "portion": 1413,
+      "buil": 1414,
+      "seller": 1415,
+      "ability": 1416,
+      "above": 1417,
+      "enced": 1418,
+      "oldest": 1419,
+      "buys": 1420,
+      "exchanging": 1421,
+      "types": 1422,
+      "below": 1423,
+      "before": 1424,
+      "ucial": 1425,
+      "curve": 1426,
+      "highs": 1427,
+      "highest": 1428,
+      "havi": 1429,
+      "signal": 1430,
+      "risks": 1431,
+      "Commod": 1432,
+      "Commission": 1433,
+      "key": 1434,
+      "exposure": 1435,
+      "holder": 1436,
+      "analyst": 1437,
+      "cryptocurrency": 1438,
+      "criter": 1439,
+      "crucial": 1440,
+      "emics": 1441,
+      "employ": 1442,
+      "dolo": 1443,
+      "equities": 1444,
+      "icipants": 1445,
+      "percentage": 1446,
+      "ailing": 1447,
+      "othesis": 1448,
+      "consistently": 1449,
+      "Margin": 1450,
+      "Stocks": 1451,
+      "averages": 1452,
+      "basic": 1453,
+      "basis": 1454,
+      "follow": 1455,
+      "need": 1456,
+      "negative": 1457,
+      "compet": 1458,
+      "comput": 1459,
+      "increases": 1460,
+      "shareholder": 1461,
+      "generation": 1462,
+      "generate": 1463,
+      "generated": 1464,
+      "avoid": 1465,
+      "posite": 1466,
+      "aging": 1467,
+      "could": 1468,
+      "lines": 1469,
+      "operating": 1470,
+      "reading": 1471,
+      "expectation": 1472,
+      "expectations": 1473,
+      "returns": 1474,
+      "better": 1475,
+      "effect": 1476,
+      "flexibility": 1477,
+      "results": 1478,
+      "transp": 1479,
+      "modern": 1480,
+      "measure": 1481,
+      "portfolios": 1482,
+      "speculation": 1483,
+      "automat": 1484,
+      "prev": 1485,
+      "previ": 1486,
+      "services": 1487,
+      "regul": 1488,
+      "reporting": 1489,
+      "valued": 1490,
+      "valuations": 1491,
+      "pattern": 1492,
+      "clos": 1493,
+      "elds": 1494,
+      "fully": 1495,
+      "play": 1496,
+      "platforms": 1497,
+      "paying": 1498,
+      "participants": 1499,
+      "sector": 1500,
+      "technical": 1501,
+      "techniqu": 1502,
+      "informed": 1503,
+      "appropri": 1504,
+      "ighted": 1505,
+      "worldwide": 1506,
+      "news": 1507,
+      "impacting": 1508,
+      "efficiency": 1509,
+      "transformed": 1510,
+      "profitability": 1511,
+      "VID": 1512,
+      "fifteen": 1513,
+      "firms": 1514,
+      "guidance": 1515,
+      "micros": 1516,
+      "insic": 1517,
+      "insider": 1518,
+      "accounts": 1519,
+      "indicator": 1520,
+      "declines": 1521,
+      "2020": 1522,
+      "create": 1523,
+      "created": 1524,
+      "goals": 1525,
+      "yields": 1526,
+      "commodity": 1527,
+      "provid": 1528,
+      "reducing": 1529,
+      "reduced": 1530,
+      "increasingly": 1531,
+      "systematic": 1532,
+      "requirement": 1533,
+      "2009": 1534,
+      "Conversely": 1535,
+      "Quant": 1536,
+      "Trust": 1537,
+      "akers": 1538,
+      "bullish": 1539,
+      "evaluate": 1540,
+      "evaluating": 1541,
+      "listing": 1542,
+      "rosoft": 1543,
+      "statement": 1544,
+      "appear": 1545,
+      "convert": 1546,
+      "individual": 1547,
+      "individuals": 1548,
+      "optimistic": 1549,
+      "week": 1550,
+      "weeks": 1551,
+      "Investors": 1552,
+      "purchases": 1553,
+      "Buy": 1554,
+      "Cryptocurrency": 1555,
+      "Index": 1556,
+      "Modern": 1557,
+      "Prof": 1558,
+      "Short": 1559,
+      "States": 1560,
+      "Volatility": 1561,
+      "cycle": 1562,
+      "determine": 1563,
+      "facilit": 1564,
+      "factors": 1565,
+      "founded": 1566,
+      "given": 1567,
+      "limit": 1568,
+      "media": 1569,
+      "wheat": 1570,
+      "intrinsic": 1571,
+      "influenced": 1572,
+      "annual": 1573,
+      "ensures": 1574,
+      "recessions": 1575,
+      "extended": 1576,
+      "statistical": 1577,
+      "select": 1578,
+      "quality": 1579,
+      "confid": 1580,
+      "allows": 1581,
+      "methodolo": 1582,
+      "industry": 1583,
+      "integration": 1584,
+      "IPOs": 1585,
+      "obligations": 1586,
+      "triggered": 1587,
+      "developed": 1588,
+      "Algorithmic": 1589,
+      "Amazon": 1590,
+      "ESG": 1591,
+      "Futures": 1592,
+      "Government": 1593,
+      "Japanese": 1594,
+      "Johns": 1595,
+      "Microsoft": 1596,
+      "Options": 1597,
+      "Swing": 1598,
+      "Value": 1599,
+      "Working": 1600,
+      "York": 1601,
+      "banks": 1602,
+      "breakers": 1603,
+      "categor": 1604,
+      "dynam": 1605,
+      "data": 1606,
+      "fixed": 1607,
+      "hypothesis": 1608,
+      "much": 1609,
+      "mechan": 1610,
+      "policy": 1611,
+      "rules": 1612,
+      "rotation": 1613,
+      "swings": 1614,
+      "sales": 1615,
+      "single": 1616,
+      "similar": 1617,
+      "tolerance": 1618,
+      "reveal": 1619,
+      "reliable": 1620,
+      "reflect": 1621,
+      "principle": 1622,
+      "private": 1623,
+      "additional": 1624,
+      "challenges": 1625,
+      "experi": 1626,
+      "extreme": 1627,
+      "stimul": 1628,
+      "acquis": 1629,
+      "consecutive": 1630,
+      "allocation": 1631,
+      "ircuit": 1632,
+      "supply": 1633,
+      "liabilities": 1634,
+      "havior": 1635,
+      "automatically": 1636,
+      "previous": 1637,
+      "techniques": 1638,
+      "appropriate": 1639,
+      "microstructure": 1640,
+      "Johnson": 1641,
+      "dynamics": 1642
+    },
+    "merges": [
+      [
+        "i",
+        "n"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "t",
+        "h"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "o",
+        "r"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "a",
+        "t"
+      ],
+      [
+        "i",
+        "c"
+      ],
+      [
+        "in",
+        "g"
+      ],
+      [
+        "th",
+        "e"
+      ],
+      [
+        "t",
+        "o"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "an",
+        "d"
+      ],
+      [
+        "i",
+        "t"
+      ],
+      [
+        "i",
+        "s"
+      ],
+      [
+        "e",
+        "d"
+      ],
+      [
+        "en",
+        "t"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "t",
+        "r"
+      ],
+      [
+        "o",
+        "m"
+      ],
+      [
+        "i",
+        "on"
+      ],
+      [
+        "e",
+        "t"
+      ],
+      [
+        "es",
+        "t"
+      ],
+      [
+        "o",
+        "f"
+      ],
+      [
+        "e",
+        "c"
+      ],
+      [
+        "p",
+        "r"
+      ],
+      [
+        "u",
+        "r"
+      ],
+      [
+        "o",
+        "l"
+      ],
+      [
+        "in",
+        "v"
+      ],
+      [
+        "c",
+        "om"
+      ],
+      [
+        "l",
+        "y"
+      ],
+      [
+        "m",
+        "ar"
+      ],
+      [
+        "a",
+        "d"
+      ],
+      [
+        "f",
+        "or"
+      ],
+      [
+        "inv",
+        "est"
+      ],
+      [
+        "k",
+        "et"
+      ],
+      [
+        "o",
+        "w"
+      ],
+      [
+        "i",
+        "d"
+      ],
+      [
+        "ar",
+        "e"
+      ],
+      [
+        "c",
+        "k"
+      ],
+      [
+        "c",
+        "h"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "e",
+        "x"
+      ],
+      [
+        "mar",
+        "ket"
+      ],
+      [
+        "i",
+        "es"
+      ],
+      [
+        "s",
+        "t"
+      ],
+      [
+        "i",
+        "l"
+      ],
+      [
+        "m",
+        "ent"
+      ],
+      [
+        "tr",
+        "ad"
+      ],
+      [
+        "v",
+        "er"
+      ],
+      [
+        "to",
+        "ck"
+      ],
+      [
+        "p",
+        "an"
+      ],
+      [
+        "at",
+        "ion"
+      ],
+      [
+        "pr",
+        "ic"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "h",
+        "e"
+      ],
+      [
+        "i",
+        "g"
+      ],
+      [
+        "o",
+        "u"
+      ],
+      [
+        "s",
+        "e"
+      ],
+      [
+        "or",
+        "s"
+      ],
+      [
+        "p",
+        "er"
+      ],
+      [
+        "s",
+        "tock"
+      ],
+      [
+        "i",
+        "m"
+      ],
+      [
+        "at",
+        "e"
+      ],
+      [
+        "a",
+        "c"
+      ],
+      [
+        "er",
+        "s"
+      ],
+      [
+        "i",
+        "f"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "T",
+        "he"
+      ],
+      [
+        "s",
+        "h"
+      ],
+      [
+        "an",
+        "c"
+      ],
+      [
+        "com",
+        "pan"
+      ],
+      [
+        "it",
+        "y"
+      ],
+      [
+        "u",
+        "l"
+      ],
+      [
+        "a",
+        "y"
+      ],
+      [
+        "i",
+        "al"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "ic",
+        "al"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "c",
+        "on"
+      ],
+      [
+        "w",
+        "h"
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "pric",
+        "e"
+      ],
+      [
+        "n",
+        "d"
+      ],
+      [
+        "o",
+        "s"
+      ],
+      [
+        "t",
+        "er"
+      ],
+      [
+        "e",
+        "ar"
+      ],
+      [
+        "u",
+        "t"
+      ],
+      [
+        "invest",
+        "ors"
+      ],
+      [
+        "al",
+        "l"
+      ],
+      [
+        "trad",
+        "ing"
+      ],
+      [
+        "i",
+        "r"
+      ],
+      [
+        "p",
+        "or"
+      ],
+      [
+        "th",
+        "at"
+      ],
+      [
+        "b",
+        "y"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "s",
+        "u"
+      ],
+      [
+        "in",
+        "c"
+      ],
+      [
+        "an",
+        "t"
+      ],
+      [
+        "i",
+        "v"
+      ],
+      [
+        "ion",
+        "s"
+      ],
+      [
+        "i",
+        "th"
+      ],
+      [
+        "u",
+        "s"
+      ],
+      [
+        "es",
+        "s"
+      ],
+      [
+        "ch",
+        "an"
+      ],
+      [
+        "f",
+        "in"
+      ],
+      [
+        "i",
+        "ve"
+      ],
+      [
+        "o",
+        "ver"
+      ],
+      [
+        "en",
+        "d"
+      ],
+      [
+        "ec",
+        "t"
+      ],
+      [
+        "for",
+        "m"
+      ],
+      [
+        "m",
+        "a"
+      ],
+      [
+        "in",
+        "d"
+      ],
+      [
+        "pr",
+        "o"
+      ],
+      [
+        "ac",
+        "t"
+      ],
+      [
+        "a",
+        "ge"
+      ],
+      [
+        "l",
+        "l"
+      ],
+      [
+        "l",
+        "ar"
+      ],
+      [
+        "t",
+        "y"
+      ],
+      [
+        "ig",
+        "h"
+      ],
+      [
+        "fin",
+        "anc"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "r",
+        "is"
+      ],
+      [
+        "w",
+        "ith"
+      ],
+      [
+        "it",
+        "ies"
+      ],
+      [
+        "c",
+        "ap"
+      ],
+      [
+        "g",
+        "r"
+      ],
+      [
+        "u",
+        "e"
+      ],
+      [
+        "u",
+        "nd"
+      ],
+      [
+        "ing",
+        "s"
+      ],
+      [
+        "is",
+        "t"
+      ],
+      [
+        "por",
+        "t"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "i",
+        "o"
+      ],
+      [
+        "o",
+        "p"
+      ],
+      [
+        "compan",
+        "ies"
+      ],
+      [
+        "se",
+        "ll"
+      ],
+      [
+        "l",
+        "u"
+      ],
+      [
+        "m",
+        "on"
+      ],
+      [
+        "r",
+        "at"
+      ],
+      [
+        "compan",
+        "y"
+      ],
+      [
+        "ical",
+        "ly"
+      ],
+      [
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "an"
+      ],
+      [
+        "s",
+        "p"
+      ],
+      [
+        "financ",
+        "ial"
+      ],
+      [
+        "i",
+        "z"
+      ],
+      [
+        "n",
+        "ings"
+      ],
+      [
+        "o",
+        "c"
+      ],
+      [
+        "en",
+        "c"
+      ],
+      [
+        "ol",
+        "d"
+      ],
+      [
+        "ow",
+        "n"
+      ],
+      [
+        "ig",
+        "n"
+      ],
+      [
+        "if",
+        "ic"
+      ],
+      [
+        "iv",
+        "id"
+      ],
+      [
+        "bu",
+        "y"
+      ],
+      [
+        "l",
+        "ow"
+      ],
+      [
+        "s",
+        "tr"
+      ],
+      [
+        "v",
+        "al"
+      ],
+      [
+        "re",
+        "d"
+      ],
+      [
+        "invest",
+        "ment"
+      ],
+      [
+        "ex",
+        "chan"
+      ],
+      [
+        "sh",
+        "are"
+      ],
+      [
+        "anc",
+        "e"
+      ],
+      [
+        "ty",
+        "p"
+      ],
+      [
+        "b",
+        "e"
+      ],
+      [
+        "l",
+        "o"
+      ],
+      [
+        "s",
+        "ec"
+      ],
+      [
+        "t",
+        "w"
+      ],
+      [
+        "u",
+        "c"
+      ],
+      [
+        "as",
+        "s"
+      ],
+      [
+        "ou",
+        "t"
+      ],
+      [
+        "inc",
+        "lu"
+      ],
+      [
+        "c",
+        "ur"
+      ],
+      [
+        "h",
+        "igh"
+      ],
+      [
+        "al",
+        "y"
+      ],
+      [
+        "it",
+        "s"
+      ],
+      [
+        "id",
+        "e"
+      ],
+      [
+        "market",
+        "s"
+      ],
+      [
+        "pric",
+        "es"
+      ],
+      [
+        "ear",
+        "nings"
+      ],
+      [
+        "c",
+        "ent"
+      ],
+      [
+        "c",
+        "ess"
+      ],
+      [
+        "d",
+        "ay"
+      ],
+      [
+        "f",
+        "r"
+      ],
+      [
+        "h",
+        "a"
+      ],
+      [
+        "s",
+        "ign"
+      ],
+      [
+        "w",
+        "e"
+      ],
+      [
+        "ar",
+        "es"
+      ],
+      [
+        "on",
+        "e"
+      ],
+      [
+        "sh",
+        "ares"
+      ],
+      [
+        "ris",
+        "k"
+      ],
+      [
+        "C",
+        "om"
+      ],
+      [
+        "d",
+        "s"
+      ],
+      [
+        "f",
+        "er"
+      ],
+      [
+        "g",
+        "es"
+      ],
+      [
+        "g",
+        "est"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "o",
+        "t"
+      ],
+      [
+        "t",
+        "im"
+      ],
+      [
+        "ow",
+        "th"
+      ],
+      [
+        "ex",
+        "p"
+      ],
+      [
+        "il",
+        "l"
+      ],
+      [
+        "ation",
+        "s"
+      ],
+      [
+        "typ",
+        "ically"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "d",
+        "ivid"
+      ],
+      [
+        "h",
+        "old"
+      ],
+      [
+        "u",
+        "re"
+      ],
+      [
+        "an",
+        "aly"
+      ],
+      [
+        "it",
+        "al"
+      ],
+      [
+        "ur",
+        "es"
+      ],
+      [
+        "ind",
+        "ic"
+      ],
+      [
+        "cap",
+        "ital"
+      ],
+      [
+        "c",
+        "r"
+      ],
+      [
+        "d",
+        "ec"
+      ],
+      [
+        "e",
+        "m"
+      ],
+      [
+        "f",
+        "f"
+      ],
+      [
+        "l",
+        "d"
+      ],
+      [
+        "n",
+        "s"
+      ],
+      [
+        "v",
+        "ol"
+      ],
+      [
+        "on",
+        "g"
+      ],
+      [
+        "the",
+        "ir"
+      ],
+      [
+        "re",
+        "t"
+      ],
+      [
+        "ur",
+        "ities"
+      ],
+      [
+        "ment",
+        "s"
+      ],
+      [
+        "stock",
+        "s"
+      ],
+      [
+        "wh",
+        "en"
+      ],
+      [
+        "os",
+        "s"
+      ],
+      [
+        "ific",
+        "ant"
+      ],
+      [
+        "ha",
+        "ve"
+      ],
+      [
+        "sign",
+        "ificant"
+      ],
+      [
+        "d",
+        "ol"
+      ],
+      [
+        "e",
+        "qu"
+      ],
+      [
+        "g",
+        "in"
+      ],
+      [
+        "m",
+        "an"
+      ],
+      [
+        "m",
+        "or"
+      ],
+      [
+        "ic",
+        "i"
+      ],
+      [
+        "ec",
+        "h"
+      ],
+      [
+        "il",
+        "e"
+      ],
+      [
+        "per",
+        "cent"
+      ],
+      [
+        "gr",
+        "owth"
+      ],
+      [
+        "inclu",
+        "de"
+      ],
+      [
+        "fr",
+        "om"
+      ],
+      [
+        "mor",
+        "e"
+      ],
+      [
+        "a",
+        "ck"
+      ],
+      [
+        "a",
+        "il"
+      ],
+      [
+        "b",
+        "l"
+      ],
+      [
+        "f",
+        "und"
+      ],
+      [
+        "g",
+        "h"
+      ],
+      [
+        "g",
+        "en"
+      ],
+      [
+        "o",
+        "th"
+      ],
+      [
+        "t",
+        "s"
+      ],
+      [
+        "u",
+        "m"
+      ],
+      [
+        "v",
+        "en"
+      ],
+      [
+        "w",
+        "or"
+      ],
+      [
+        "at",
+        "es"
+      ],
+      [
+        "at",
+        "ed"
+      ],
+      [
+        "ic",
+        "h"
+      ],
+      [
+        "re",
+        "qu"
+      ],
+      [
+        "ur",
+        "ing"
+      ],
+      [
+        "il",
+        "ity"
+      ],
+      [
+        "ou",
+        "gh"
+      ],
+      [
+        "con",
+        "s"
+      ],
+      [
+        "wh",
+        "ich"
+      ],
+      [
+        "us",
+        "ed"
+      ],
+      [
+        "ab",
+        "le"
+      ],
+      [
+        "ass",
+        "et"
+      ],
+      [
+        "M",
+        "ar"
+      ],
+      [
+        "S",
+        "tock"
+      ],
+      [
+        "a",
+        "in"
+      ],
+      [
+        "a",
+        "ver"
+      ],
+      [
+        "b",
+        "as"
+      ],
+      [
+        "c",
+        "e"
+      ],
+      [
+        "c",
+        "as"
+      ],
+      [
+        "f",
+        "ol"
+      ],
+      [
+        "g",
+        "y"
+      ],
+      [
+        "h",
+        "as"
+      ],
+      [
+        "n",
+        "e"
+      ],
+      [
+        "o",
+        "ur"
+      ],
+      [
+        "p",
+        "os"
+      ],
+      [
+        "v",
+        "es"
+      ],
+      [
+        "al",
+        "s"
+      ],
+      [
+        "re",
+        "as"
+      ],
+      [
+        "com",
+        "e"
+      ],
+      [
+        "com",
+        "p"
+      ],
+      [
+        "mar",
+        "gin"
+      ],
+      [
+        "invest",
+        "or"
+      ],
+      [
+        "id",
+        "er"
+      ],
+      [
+        "im",
+        "p"
+      ],
+      [
+        "ul",
+        "ar"
+      ],
+      [
+        "inc",
+        "reas"
+      ],
+      [
+        "val",
+        "ue"
+      ],
+      [
+        "share",
+        "hold"
+      ],
+      [
+        "dol",
+        "lar"
+      ],
+      [
+        "ech",
+        "n"
+      ],
+      [
+        "gen",
+        "er"
+      ],
+      [
+        "E",
+        "x"
+      ],
+      [
+        "I",
+        "n"
+      ],
+      [
+        "a",
+        "v"
+      ],
+      [
+        "c",
+        "o"
+      ],
+      [
+        "d",
+        "if"
+      ],
+      [
+        "es",
+        "e"
+      ],
+      [
+        "ar",
+        "t"
+      ],
+      [
+        "and",
+        "ing"
+      ],
+      [
+        "ec",
+        "on"
+      ],
+      [
+        "invest",
+        "ing"
+      ],
+      [
+        "ve",
+        "l"
+      ],
+      [
+        "trad",
+        "e"
+      ],
+      [
+        "per",
+        "form"
+      ],
+      [
+        "su",
+        "ch"
+      ],
+      [
+        "chan",
+        "ge"
+      ],
+      [
+        "li",
+        "ke"
+      ],
+      [
+        "sec",
+        "urities"
+      ],
+      [
+        "tw",
+        "o"
+      ],
+      [
+        "tim",
+        "e"
+      ],
+      [
+        "equ",
+        "ity"
+      ],
+      [
+        "cas",
+        "h"
+      ],
+      [
+        "pos",
+        "it"
+      ],
+      [
+        "a",
+        "g"
+      ],
+      [
+        "c",
+        "al"
+      ],
+      [
+        "c",
+        "ou"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        "d",
+        "is"
+      ],
+      [
+        "i",
+        "b"
+      ],
+      [
+        "k",
+        "n"
+      ],
+      [
+        "l",
+        "in"
+      ],
+      [
+        "m",
+        "in"
+      ],
+      [
+        "m",
+        "ay"
+      ],
+      [
+        "o",
+        "per"
+      ],
+      [
+        "t",
+        "end"
+      ],
+      [
+        "u",
+        "n"
+      ],
+      [
+        "in",
+        "ter"
+      ],
+      [
+        "in",
+        "come"
+      ],
+      [
+        "th",
+        "an"
+      ],
+      [
+        "er",
+        "e"
+      ],
+      [
+        "ar",
+        "d"
+      ],
+      [
+        "ic",
+        "s"
+      ],
+      [
+        "re",
+        "ad"
+      ],
+      [
+        "com",
+        "mon"
+      ],
+      [
+        "st",
+        "s"
+      ],
+      [
+        "trad",
+        "ed"
+      ],
+      [
+        "mo",
+        "st"
+      ],
+      [
+        "rat",
+        "io"
+      ],
+      [
+        "enc",
+        "y"
+      ],
+      [
+        "exchan",
+        "ges"
+      ],
+      [
+        "exp",
+        "ect"
+      ],
+      [
+        "divid",
+        "end"
+      ],
+      [
+        "ret",
+        "ur"
+      ],
+      [
+        "man",
+        "age"
+      ],
+      [
+        "sharehold",
+        "ers"
+      ],
+      [
+        "dif",
+        "fer"
+      ],
+      [
+        "econ",
+        "om"
+      ],
+      [
+        "kn",
+        "own"
+      ],
+      [
+        "5",
+        "00"
+      ],
+      [
+        "S",
+        "E"
+      ],
+      [
+        "T",
+        "h"
+      ],
+      [
+        "a",
+        "ch"
+      ],
+      [
+        "b",
+        "et"
+      ],
+      [
+        "d",
+        "uring"
+      ],
+      [
+        "e",
+        "ff"
+      ],
+      [
+        "f",
+        "l"
+      ],
+      [
+        "i",
+        "p"
+      ],
+      [
+        "o",
+        "o"
+      ],
+      [
+        "r",
+        "es"
+      ],
+      [
+        "r",
+        "ough"
+      ],
+      [
+        "s",
+        "is"
+      ],
+      [
+        "v",
+        "ing"
+      ],
+      [
+        "in",
+        "t"
+      ],
+      [
+        "th",
+        "rough"
+      ],
+      [
+        "or",
+        "t"
+      ],
+      [
+        "or",
+        "por"
+      ],
+      [
+        "the",
+        "m"
+      ],
+      [
+        "re",
+        "e"
+      ],
+      [
+        "tr",
+        "an"
+      ],
+      [
+        "pr",
+        "of"
+      ],
+      [
+        "st",
+        "anding"
+      ],
+      [
+        "pan",
+        "ies"
+      ],
+      [
+        "mo",
+        "d"
+      ],
+      [
+        "mo",
+        "ve"
+      ],
+      [
+        "me",
+        "as"
+      ],
+      [
+        "lar",
+        "gest"
+      ],
+      [
+        "port",
+        "fol"
+      ],
+      [
+        "sell",
+        "ing"
+      ],
+      [
+        "rat",
+        "es"
+      ],
+      [
+        "sp",
+        "ec"
+      ],
+      [
+        "oc",
+        "cur"
+      ],
+      [
+        "exchan",
+        "ge"
+      ],
+      [
+        "uc",
+        "t"
+      ],
+      [
+        "Com",
+        "panies"
+      ],
+      [
+        "dollar",
+        "s"
+      ],
+      [
+        "Ex",
+        "change"
+      ],
+      [
+        "manage",
+        "ment"
+      ],
+      [
+        "econom",
+        "ic"
+      ],
+      [
+        "orpor",
+        "ate"
+      ],
+      [
+        ")",
+        ","
+      ],
+      [
+        "a",
+        "m"
+      ],
+      [
+        "a",
+        "u"
+      ],
+      [
+        "d",
+        "ing"
+      ],
+      [
+        "d",
+        "ers"
+      ],
+      [
+        "f",
+        "ut"
+      ],
+      [
+        "h",
+        "ist"
+      ],
+      [
+        "k",
+        "ing"
+      ],
+      [
+        "p",
+        "u"
+      ],
+      [
+        "p",
+        "at"
+      ],
+      [
+        "p",
+        "re"
+      ],
+      [
+        "s",
+        "y"
+      ],
+      [
+        "s",
+        "er"
+      ],
+      [
+        "u",
+        "me"
+      ],
+      [
+        "w",
+        "ide"
+      ],
+      [
+        "or",
+        "y"
+      ],
+      [
+        "on",
+        "d"
+      ],
+      [
+        "at",
+        "ility"
+      ],
+      [
+        "re",
+        "g"
+      ],
+      [
+        "re",
+        "port"
+      ],
+      [
+        "re",
+        "ven"
+      ],
+      [
+        "ent",
+        "ial"
+      ],
+      [
+        "ion",
+        "al"
+      ],
+      [
+        "ol",
+        "ves"
+      ],
+      [
+        "inv",
+        "olves"
+      ],
+      [
+        "per",
+        "io"
+      ],
+      [
+        "qu",
+        "id"
+      ],
+      [
+        "wh",
+        "ere"
+      ],
+      [
+        "ter",
+        "m"
+      ],
+      [
+        "over",
+        "n"
+      ],
+      [
+        "li",
+        "quid"
+      ],
+      [
+        "iz",
+        "ed"
+      ],
+      [
+        "enc",
+        "e"
+      ],
+      [
+        "str",
+        "ate"
+      ],
+      [
+        "str",
+        "ong"
+      ],
+      [
+        "val",
+        "u"
+      ],
+      [
+        "lo",
+        "se"
+      ],
+      [
+        "cur",
+        "r"
+      ],
+      [
+        "analy",
+        "sis"
+      ],
+      [
+        "dec",
+        "is"
+      ],
+      [
+        "ack",
+        "s"
+      ],
+      [
+        "bl",
+        "ic"
+      ],
+      [
+        "fund",
+        "s"
+      ],
+      [
+        "requ",
+        "i"
+      ],
+      [
+        "Mar",
+        "ket"
+      ],
+      [
+        "aver",
+        "age"
+      ],
+      [
+        "bas",
+        "ed"
+      ],
+      [
+        "cou",
+        "n"
+      ],
+      [
+        "inter",
+        "est"
+      ],
+      [
+        "retur",
+        "n"
+      ],
+      [
+        "pu",
+        "blic"
+      ],
+      [
+        "pat",
+        "ter"
+      ],
+      [
+        "E",
+        "T"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "W",
+        "h"
+      ],
+      [
+        "b",
+        "t"
+      ],
+      [
+        "c",
+        "l"
+      ],
+      [
+        "c",
+        "lose"
+      ],
+      [
+        "d",
+        "it"
+      ],
+      [
+        "e",
+        "l"
+      ],
+      [
+        "f",
+        "ul"
+      ],
+      [
+        "f",
+        "all"
+      ],
+      [
+        "g",
+        "gest"
+      ],
+      [
+        "h",
+        "our"
+      ],
+      [
+        "i",
+        "ed"
+      ],
+      [
+        "k",
+        "s"
+      ],
+      [
+        "p",
+        "l"
+      ],
+      [
+        "p",
+        "ay"
+      ],
+      [
+        "p",
+        "art"
+      ],
+      [
+        "s",
+        "ect"
+      ],
+      [
+        "t",
+        "al"
+      ],
+      [
+        "t",
+        "en"
+      ],
+      [
+        "t",
+        "echn"
+      ],
+      [
+        "in",
+        "form"
+      ],
+      [
+        "th",
+        "er"
+      ],
+      [
+        "or",
+        "ders"
+      ],
+      [
+        "al",
+        "th"
+      ],
+      [
+        "al",
+        "ly"
+      ],
+      [
+        "at",
+        "ing"
+      ],
+      [
+        "at",
+        "ive"
+      ],
+      [
+        "to",
+        "tal"
+      ],
+      [
+        "ent",
+        "y"
+      ],
+      [
+        "ec",
+        "ut"
+      ],
+      [
+        "ex",
+        "ecut"
+      ],
+      [
+        "ou",
+        "s"
+      ],
+      [
+        "if",
+        "ied"
+      ],
+      [
+        "de",
+        "bt"
+      ],
+      [
+        "ap",
+        "pro"
+      ],
+      [
+        "mo",
+        "ving"
+      ],
+      [
+        "su",
+        "ggest"
+      ],
+      [
+        "pro",
+        "cess"
+      ],
+      [
+        "lar",
+        "ge"
+      ],
+      [
+        "igh",
+        "t"
+      ],
+      [
+        "und",
+        "er"
+      ],
+      [
+        "sp",
+        "read"
+      ],
+      [
+        "iz",
+        "ation"
+      ],
+      [
+        "tw",
+        "enty"
+      ],
+      [
+        "day",
+        "s"
+      ],
+      [
+        "ill",
+        "ion"
+      ],
+      [
+        "vol",
+        "ume"
+      ],
+      [
+        "ail",
+        "able"
+      ],
+      [
+        "wor",
+        "ld"
+      ],
+      [
+        "cons",
+        "ider"
+      ],
+      [
+        "ne",
+        "w"
+      ],
+      [
+        "imp",
+        "act"
+      ],
+      [
+        "av",
+        "ailable"
+      ],
+      [
+        "eff",
+        "ici"
+      ],
+      [
+        "tran",
+        "s"
+      ],
+      [
+        "prof",
+        "it"
+      ],
+      [
+        "move",
+        "ments"
+      ],
+      [
+        "meas",
+        "ures"
+      ],
+      [
+        "portfol",
+        "io"
+      ],
+      [
+        "reven",
+        "ue"
+      ],
+      [
+        "liquid",
+        "ity"
+      ],
+      [
+        "strate",
+        "gy"
+      ],
+      [
+        "decis",
+        "ions"
+      ],
+      [
+        "ET",
+        "F"
+      ],
+      [
+        "hour",
+        "s"
+      ],
+      [
+        "U",
+        "nd"
+      ],
+      [
+        "V",
+        "I"
+      ],
+      [
+        "a",
+        "me"
+      ],
+      [
+        "b",
+        "er"
+      ],
+      [
+        "b",
+        "est"
+      ],
+      [
+        "c",
+        "ul"
+      ],
+      [
+        "c",
+        "orporate"
+      ],
+      [
+        "e",
+        "y"
+      ],
+      [
+        "f",
+        "ers"
+      ],
+      [
+        "f",
+        "if"
+      ],
+      [
+        "f",
+        "ir"
+      ],
+      [
+        "g",
+        "u"
+      ],
+      [
+        "g",
+        "or"
+      ],
+      [
+        "g",
+        "overn"
+      ],
+      [
+        "h",
+        "ow"
+      ],
+      [
+        "i",
+        "ment"
+      ],
+      [
+        "l",
+        "oss"
+      ],
+      [
+        "m",
+        "ic"
+      ],
+      [
+        "n",
+        "et"
+      ],
+      [
+        "n",
+        "ot"
+      ],
+      [
+        "o",
+        "d"
+      ],
+      [
+        "p",
+        "p"
+      ],
+      [
+        "p",
+        "t"
+      ],
+      [
+        "r",
+        "o"
+      ],
+      [
+        "s",
+        "ion"
+      ],
+      [
+        "s",
+        "ide"
+      ],
+      [
+        "u",
+        "st"
+      ],
+      [
+        "y",
+        "p"
+      ],
+      [
+        "in",
+        "s"
+      ],
+      [
+        "ar",
+        "y"
+      ],
+      [
+        "the",
+        "y"
+      ],
+      [
+        "ent",
+        "iment"
+      ],
+      [
+        "as",
+        "t"
+      ],
+      [
+        "est",
+        "ate"
+      ],
+      [
+        "pr",
+        "i"
+      ],
+      [
+        "ol",
+        "o"
+      ],
+      [
+        "st",
+        "em"
+      ],
+      [
+        "ation",
+        "al"
+      ],
+      [
+        "ac",
+        "coun"
+      ],
+      [
+        "sh",
+        "ort"
+      ],
+      [
+        "wh",
+        "ile"
+      ],
+      [
+        "us",
+        "es"
+      ],
+      [
+        "ind",
+        "ex"
+      ],
+      [
+        "inclu",
+        "ding"
+      ],
+      [
+        "indic",
+        "at"
+      ],
+      [
+        "capital",
+        "ization"
+      ],
+      [
+        "dec",
+        "lin"
+      ],
+      [
+        "vol",
+        "atility"
+      ],
+      [
+        "margin",
+        "s"
+      ],
+      [
+        "perform",
+        "ance"
+      ],
+      [
+        "cal",
+        "cul"
+      ],
+      [
+        "di",
+        "ver"
+      ],
+      [
+        "common",
+        "ly"
+      ],
+      [
+        "dividend",
+        "s"
+      ],
+      [
+        "SE",
+        "C"
+      ],
+      [
+        "patter",
+        "ns"
+      ],
+      [
+        "suggest",
+        "s"
+      ],
+      [
+        "Und",
+        "er"
+      ],
+      [
+        "govern",
+        "ance"
+      ],
+      [
+        "2",
+        "0"
+      ],
+      [
+        "A",
+        "Q"
+      ],
+      [
+        "A",
+        "SD"
+      ],
+      [
+        "F",
+        "ed"
+      ],
+      [
+        "G",
+        "r"
+      ],
+      [
+        "N",
+        "ASD"
+      ],
+      [
+        "T",
+        "echn"
+      ],
+      [
+        "a",
+        "ment"
+      ],
+      [
+        "b",
+        "on"
+      ],
+      [
+        "b",
+        "al"
+      ],
+      [
+        "b",
+        "id"
+      ],
+      [
+        "b",
+        "ear"
+      ],
+      [
+        "b",
+        "ut"
+      ],
+      [
+        "b",
+        "acks"
+      ],
+      [
+        "c",
+        "t"
+      ],
+      [
+        "c",
+        "re"
+      ],
+      [
+        "e",
+        "ver"
+      ],
+      [
+        "f",
+        "ive"
+      ],
+      [
+        "g",
+        "o"
+      ],
+      [
+        "g",
+        "ing"
+      ],
+      [
+        "h",
+        "und"
+      ],
+      [
+        "i",
+        "os"
+      ],
+      [
+        "l",
+        "a"
+      ],
+      [
+        "l",
+        "p"
+      ],
+      [
+        "l",
+        "ong"
+      ],
+      [
+        "m",
+        "er"
+      ],
+      [
+        "m",
+        "and"
+      ],
+      [
+        "n",
+        "at"
+      ],
+      [
+        "n",
+        "um"
+      ],
+      [
+        "p",
+        "red"
+      ],
+      [
+        "s",
+        "oc"
+      ],
+      [
+        "w",
+        "ill"
+      ],
+      [
+        "w",
+        "ard"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "y",
+        "ear"
+      ],
+      [
+        "ar",
+        "r"
+      ],
+      [
+        "ic",
+        "es"
+      ],
+      [
+        "to",
+        "p"
+      ],
+      [
+        "re",
+        "al"
+      ],
+      [
+        "re",
+        "fers"
+      ],
+      [
+        "is",
+        "h"
+      ],
+      [
+        "ent",
+        "s"
+      ],
+      [
+        "as",
+        "es"
+      ],
+      [
+        "tr",
+        "act"
+      ],
+      [
+        "ur",
+        "ity"
+      ],
+      [
+        "com",
+        "mod"
+      ],
+      [
+        "ex",
+        "ce"
+      ],
+      [
+        "trad",
+        "es"
+      ],
+      [
+        "trad",
+        "ers"
+      ],
+      [
+        "ou",
+        "nd"
+      ],
+      [
+        "le",
+        "vel"
+      ],
+      [
+        "ul",
+        "l"
+      ],
+      [
+        "ul",
+        "t"
+      ],
+      [
+        "ma",
+        "king"
+      ],
+      [
+        "pro",
+        "v"
+      ],
+      [
+        "financ",
+        "e"
+      ],
+      [
+        "with",
+        "out"
+      ],
+      [
+        "op",
+        "t"
+      ],
+      [
+        "ific",
+        "ation"
+      ],
+      [
+        "buy",
+        "ing"
+      ],
+      [
+        "red",
+        "uc"
+      ],
+      [
+        "investment",
+        "s"
+      ],
+      [
+        "be",
+        "en"
+      ],
+      [
+        "we",
+        "en"
+      ],
+      [
+        "we",
+        "alth"
+      ],
+      [
+        "divid",
+        "ing"
+      ],
+      [
+        "oth",
+        "er"
+      ],
+      [
+        "asset",
+        "s"
+      ],
+      [
+        "increas",
+        "ing"
+      ],
+      [
+        "differ",
+        "ent"
+      ],
+      [
+        "Th",
+        "ese"
+      ],
+      [
+        "bet",
+        "ween"
+      ],
+      [
+        "occur",
+        "s"
+      ],
+      [
+        "fut",
+        "ure"
+      ],
+      [
+        "sy",
+        "stem"
+      ],
+      [
+        "wide",
+        "ly"
+      ],
+      [
+        "curr",
+        "ency"
+      ],
+      [
+        "requi",
+        "re"
+      ],
+      [
+        "public",
+        "ly"
+      ],
+      [
+        "sect",
+        "ors"
+      ],
+      [
+        "inform",
+        "ation"
+      ],
+      [
+        "execut",
+        "e"
+      ],
+      [
+        "consider",
+        "ed"
+      ],
+      [
+        "effici",
+        "ent"
+      ],
+      [
+        "calcul",
+        "ated"
+      ],
+      [
+        "diver",
+        "s"
+      ],
+      [
+        "Under",
+        "standing"
+      ],
+      [
+        "NASD",
+        "AQ"
+      ],
+      [
+        "bon",
+        "ds"
+      ],
+      [
+        "hund",
+        "red"
+      ],
+      [
+        "exce",
+        "ed"
+      ],
+      [
+        ")",
+        "."
+      ],
+      [
+        "2",
+        "00"
+      ],
+      [
+        "A",
+        "n"
+      ],
+      [
+        "A",
+        "pp"
+      ],
+      [
+        "C",
+        "on"
+      ],
+      [
+        "D",
+        "P"
+      ],
+      [
+        "D",
+        "uring"
+      ],
+      [
+        "G",
+        "DP"
+      ],
+      [
+        "H",
+        "ow"
+      ],
+      [
+        "I",
+        "t"
+      ],
+      [
+        "L",
+        "e"
+      ],
+      [
+        "O",
+        "E"
+      ],
+      [
+        "Q",
+        "u"
+      ],
+      [
+        "S",
+        "ec"
+      ],
+      [
+        "T",
+        "r"
+      ],
+      [
+        "U",
+        "n"
+      ],
+      [
+        "a",
+        "k"
+      ],
+      [
+        "a",
+        "ges"
+      ],
+      [
+        "a",
+        "ther"
+      ],
+      [
+        "b",
+        "i"
+      ],
+      [
+        "b",
+        "ec"
+      ],
+      [
+        "b",
+        "us"
+      ],
+      [
+        "b",
+        "ro"
+      ],
+      [
+        "b",
+        "ull"
+      ],
+      [
+        "d",
+        "own"
+      ],
+      [
+        "e",
+        "valu"
+      ],
+      [
+        "f",
+        "lu"
+      ],
+      [
+        "f",
+        "low"
+      ],
+      [
+        "f",
+        "our"
+      ],
+      [
+        "g",
+        "er"
+      ],
+      [
+        "g",
+        "ies"
+      ],
+      [
+        "g",
+        "ive"
+      ],
+      [
+        "h",
+        "ed"
+      ],
+      [
+        "i",
+        "a"
+      ],
+      [
+        "i",
+        "ly"
+      ],
+      [
+        "k",
+        "er"
+      ],
+      [
+        "l",
+        "es"
+      ],
+      [
+        "l",
+        "ist"
+      ],
+      [
+        "m",
+        "s"
+      ],
+      [
+        "m",
+        "at"
+      ],
+      [
+        "m",
+        "is"
+      ],
+      [
+        "p",
+        "o"
+      ],
+      [
+        "p",
+        "ur"
+      ],
+      [
+        "p",
+        "ow"
+      ],
+      [
+        "p",
+        "op"
+      ],
+      [
+        "p",
+        "lo"
+      ],
+      [
+        "r",
+        "os"
+      ],
+      [
+        "s",
+        "ame"
+      ],
+      [
+        "s",
+        "entiment"
+      ],
+      [
+        "t",
+        "e"
+      ],
+      [
+        "u",
+        "al"
+      ],
+      [
+        "v",
+        "i"
+      ],
+      [
+        "v",
+        "est"
+      ],
+      [
+        "v",
+        "ant"
+      ],
+      [
+        "w",
+        "at"
+      ],
+      [
+        "w",
+        "ay"
+      ],
+      [
+        "in",
+        "st"
+      ],
+      [
+        "in",
+        "ess"
+      ],
+      [
+        "th",
+        "o"
+      ],
+      [
+        "th",
+        "is"
+      ],
+      [
+        "th",
+        "ir"
+      ],
+      [
+        "th",
+        "ese"
+      ],
+      [
+        "er",
+        "n"
+      ],
+      [
+        "er",
+        "min"
+      ],
+      [
+        "ic",
+        "ular"
+      ],
+      [
+        "to",
+        "currency"
+      ],
+      [
+        "re",
+        "cent"
+      ],
+      [
+        "re",
+        "ct"
+      ],
+      [
+        "it",
+        "ed"
+      ],
+      [
+        "it",
+        "ical"
+      ],
+      [
+        "it",
+        "ut"
+      ],
+      [
+        "as",
+        "k"
+      ],
+      [
+        "as",
+        "on"
+      ],
+      [
+        "tr",
+        "illion"
+      ],
+      [
+        "et",
+        "ermin"
+      ],
+      [
+        "of",
+        "ten"
+      ],
+      [
+        "ur",
+        "al"
+      ],
+      [
+        "ol",
+        "s"
+      ],
+      [
+        "mar",
+        "y"
+      ],
+      [
+        "id",
+        "ent"
+      ],
+      [
+        "ch",
+        "ed"
+      ],
+      [
+        "st",
+        "ate"
+      ],
+      [
+        "il",
+        "ities"
+      ],
+      [
+        "ver",
+        "age"
+      ],
+      [
+        "pric",
+        "ing"
+      ],
+      [
+        "he",
+        "lp"
+      ],
+      [
+        "im",
+        "um"
+      ],
+      [
+        "if",
+        "y"
+      ],
+      [
+        "de",
+        "mand"
+      ],
+      [
+        "ap",
+        "p"
+      ],
+      [
+        "con",
+        "ver"
+      ],
+      [
+        "con",
+        "dit"
+      ],
+      [
+        "ir",
+        "es"
+      ],
+      [
+        "me",
+        "tr"
+      ],
+      [
+        "ith",
+        "mic"
+      ],
+      [
+        "us",
+        "tr"
+      ],
+      [
+        "over",
+        "all"
+      ],
+      [
+        "form",
+        "s"
+      ],
+      [
+        "ma",
+        "ke"
+      ],
+      [
+        "ma",
+        "int"
+      ],
+      [
+        "ma",
+        "them"
+      ],
+      [
+        "ind",
+        "ivid"
+      ],
+      [
+        "pro",
+        "d"
+      ],
+      [
+        "act",
+        "ions"
+      ],
+      [
+        "ris",
+        "ing"
+      ],
+      [
+        "op",
+        "tim"
+      ],
+      [
+        "sp",
+        "l"
+      ],
+      [
+        "iz",
+        "e"
+      ],
+      [
+        "buy",
+        "backs"
+      ],
+      [
+        "low",
+        "er"
+      ],
+      [
+        "lo",
+        "bal"
+      ],
+      [
+        "sec",
+        "urity"
+      ],
+      [
+        "out",
+        "standing"
+      ],
+      [
+        "high",
+        "er"
+      ],
+      [
+        "we",
+        "e"
+      ],
+      [
+        "analy",
+        "sts"
+      ],
+      [
+        "indic",
+        "ate"
+      ],
+      [
+        "ff",
+        "ect"
+      ],
+      [
+        "fund",
+        "ament"
+      ],
+      [
+        "wor",
+        "k"
+      ],
+      [
+        "requ",
+        "ires"
+      ],
+      [
+        "ain",
+        "st"
+      ],
+      [
+        "als",
+        "o"
+      ],
+      [
+        "increas",
+        "e"
+      ],
+      [
+        "gener",
+        "ally"
+      ],
+      [
+        "In",
+        "vest"
+      ],
+      [
+        "posit",
+        "ion"
+      ],
+      [
+        "ag",
+        "ainst"
+      ],
+      [
+        "di",
+        "rect"
+      ],
+      [
+        "expect",
+        "ed"
+      ],
+      [
+        "int",
+        "e"
+      ],
+      [
+        "spec",
+        "ified"
+      ],
+      [
+        "uct",
+        "ure"
+      ],
+      [
+        "au",
+        "se"
+      ],
+      [
+        "hist",
+        "or"
+      ],
+      [
+        "hist",
+        "ory"
+      ],
+      [
+        "reg",
+        "ular"
+      ],
+      [
+        "report",
+        "s"
+      ],
+      [
+        "perio",
+        "d"
+      ],
+      [
+        "perio",
+        "ds"
+      ],
+      [
+        "Wh",
+        "ile"
+      ],
+      [
+        "cl",
+        "ass"
+      ],
+      [
+        "close",
+        "ly"
+      ],
+      [
+        "part",
+        "icular"
+      ],
+      [
+        "appro",
+        "ach"
+      ],
+      [
+        "spread",
+        "s"
+      ],
+      [
+        "ETF",
+        "s"
+      ],
+      [
+        "VI",
+        "X"
+      ],
+      [
+        "fif",
+        "ty"
+      ],
+      [
+        "gor",
+        "ithmic"
+      ],
+      [
+        "yp",
+        "tocurrency"
+      ],
+      [
+        "pri",
+        "mary"
+      ],
+      [
+        "olo",
+        "gy"
+      ],
+      [
+        "accoun",
+        "t"
+      ],
+      [
+        "indicat",
+        "ors"
+      ],
+      [
+        "num",
+        "ber"
+      ],
+      [
+        "soc",
+        "ial"
+      ],
+      [
+        "year",
+        "s"
+      ],
+      [
+        "opt",
+        "ions"
+      ],
+      [
+        "divers",
+        "ification"
+      ],
+      [
+        "exceed",
+        "ing"
+      ],
+      [
+        "App",
+        "le"
+      ],
+      [
+        "How",
+        "ever"
+      ],
+      [
+        "bec",
+        "ause"
+      ],
+      [
+        "bus",
+        "iness"
+      ],
+      [
+        "pur",
+        "ch"
+      ],
+      [
+        "pow",
+        "er"
+      ],
+      [
+        "pop",
+        "ular"
+      ],
+      [
+        "wat",
+        "ched"
+      ],
+      [
+        "inst",
+        "itut"
+      ],
+      [
+        "condit",
+        "ions"
+      ],
+      [
+        "mathem",
+        "at"
+      ],
+      [
+        "institut",
+        "ional"
+      ],
+      [
+        "A",
+        "s"
+      ],
+      [
+        "B",
+        "u"
+      ],
+      [
+        "C",
+        "r"
+      ],
+      [
+        "D",
+        "ay"
+      ],
+      [
+        "E",
+        "I"
+      ],
+      [
+        "E",
+        "P"
+      ],
+      [
+        "E",
+        "ar"
+      ],
+      [
+        "I",
+        "P"
+      ],
+      [
+        "I",
+        "nd"
+      ],
+      [
+        "K",
+        "ey"
+      ],
+      [
+        "M",
+        "od"
+      ],
+      [
+        "N",
+        "Y"
+      ],
+      [
+        "P",
+        "M"
+      ],
+      [
+        "P",
+        "r"
+      ],
+      [
+        "R",
+        "OE"
+      ],
+      [
+        "R",
+        "EI"
+      ],
+      [
+        "S",
+        "h"
+      ],
+      [
+        "S",
+        "t"
+      ],
+      [
+        "T",
+        "s"
+      ],
+      [
+        "T",
+        "es"
+      ],
+      [
+        "V",
+        "ol"
+      ],
+      [
+        "a",
+        "f"
+      ],
+      [
+        "a",
+        "x"
+      ],
+      [
+        "a",
+        "is"
+      ],
+      [
+        "a",
+        "ir"
+      ],
+      [
+        "a",
+        "mon"
+      ],
+      [
+        "a",
+        "ily"
+      ],
+      [
+        "a",
+        "ffect"
+      ],
+      [
+        "b",
+        "or"
+      ],
+      [
+        "b",
+        "oo"
+      ],
+      [
+        "b",
+        "illion"
+      ],
+      [
+        "c",
+        "u"
+      ],
+      [
+        "c",
+        "y"
+      ],
+      [
+        "c",
+        "all"
+      ],
+      [
+        "c",
+        "cess"
+      ],
+      [
+        "d",
+        "etermin"
+      ],
+      [
+        "d",
+        "aily"
+      ],
+      [
+        "e",
+        "v"
+      ],
+      [
+        "e",
+        "w"
+      ],
+      [
+        "e",
+        "ign"
+      ],
+      [
+        "e",
+        "ld"
+      ],
+      [
+        "f",
+        "ac"
+      ],
+      [
+        "f",
+        "act"
+      ],
+      [
+        "f",
+        "ree"
+      ],
+      [
+        "f",
+        "ound"
+      ],
+      [
+        "g",
+        "n"
+      ],
+      [
+        "g",
+        "iv"
+      ],
+      [
+        "g",
+        "old"
+      ],
+      [
+        "g",
+        "ain"
+      ],
+      [
+        "g",
+        "oo"
+      ],
+      [
+        "i",
+        "x"
+      ],
+      [
+        "i",
+        "an"
+      ],
+      [
+        "j",
+        "or"
+      ],
+      [
+        "l",
+        "im"
+      ],
+      [
+        "m",
+        "ed"
+      ],
+      [
+        "m",
+        "all"
+      ],
+      [
+        "o",
+        "bl"
+      ],
+      [
+        "p",
+        "ut"
+      ],
+      [
+        "p",
+        "ot"
+      ],
+      [
+        "r",
+        "u"
+      ],
+      [
+        "r",
+        "an"
+      ],
+      [
+        "r",
+        "ow"
+      ],
+      [
+        "r",
+        "ate"
+      ],
+      [
+        "r",
+        "ight"
+      ],
+      [
+        "s",
+        "mall"
+      ],
+      [
+        "t",
+        "in"
+      ],
+      [
+        "t",
+        "ur"
+      ],
+      [
+        "t",
+        "ax"
+      ],
+      [
+        "u",
+        "es"
+      ],
+      [
+        "v",
+        "ar"
+      ],
+      [
+        "v",
+        "ed"
+      ],
+      [
+        "v",
+        "ir"
+      ],
+      [
+        "w",
+        "he"
+      ],
+      [
+        "y",
+        "s"
+      ],
+      [
+        "in",
+        "e"
+      ],
+      [
+        "in",
+        "tr"
+      ],
+      [
+        "in",
+        "flu"
+      ],
+      [
+        "an",
+        "n"
+      ],
+      [
+        "an",
+        "y"
+      ],
+      [
+        "ar",
+        "k"
+      ],
+      [
+        "ar",
+        "ter"
+      ],
+      [
+        "on",
+        "ic"
+      ],
+      [
+        "en",
+        "s"
+      ],
+      [
+        "at",
+        "ist"
+      ],
+      [
+        "at",
+        "forms"
+      ],
+      [
+        "ic",
+        "t"
+      ],
+      [
+        "re",
+        "act"
+      ],
+      [
+        "re",
+        "cess"
+      ],
+      [
+        "re",
+        "ach"
+      ],
+      [
+        "it",
+        "er"
+      ],
+      [
+        "ent",
+        "ly"
+      ],
+      [
+        "tr",
+        "ig"
+      ],
+      [
+        "tr",
+        "ib"
+      ],
+      [
+        "tr",
+        "acks"
+      ],
+      [
+        "tr",
+        "ucture"
+      ],
+      [
+        "tr",
+        "onic"
+      ],
+      [
+        "om",
+        "e"
+      ],
+      [
+        "et",
+        "ary"
+      ],
+      [
+        "of",
+        "fer"
+      ],
+      [
+        "ec",
+        "tronic"
+      ],
+      [
+        "pr",
+        "es"
+      ],
+      [
+        "pr",
+        "act"
+      ],
+      [
+        "ol",
+        "e"
+      ],
+      [
+        "ol",
+        "l"
+      ],
+      [
+        "ol",
+        "itical"
+      ],
+      [
+        "com",
+        "m"
+      ],
+      [
+        "ad",
+        "vant"
+      ],
+      [
+        "ex",
+        "tend"
+      ],
+      [
+        "st",
+        "atist"
+      ],
+      [
+        "ge",
+        "op"
+      ],
+      [
+        "ou",
+        "ld"
+      ],
+      [
+        "se",
+        "l"
+      ],
+      [
+        "se",
+        "ly"
+      ],
+      [
+        "se",
+        "ason"
+      ],
+      [
+        "im",
+        "port"
+      ],
+      [
+        "ac",
+        "cess"
+      ],
+      [
+        "qu",
+        "al"
+      ],
+      [
+        "sh",
+        "ould"
+      ],
+      [
+        "de",
+        "l"
+      ],
+      [
+        "de",
+        "vel"
+      ],
+      [
+        "con",
+        "f"
+      ],
+      [
+        "con",
+        "su"
+      ],
+      [
+        "con",
+        "tract"
+      ],
+      [
+        "con",
+        "tin"
+      ],
+      [
+        "mo",
+        "del"
+      ],
+      [
+        "ear",
+        "ch"
+      ],
+      [
+        "all",
+        "ow"
+      ],
+      [
+        "me",
+        "tho"
+      ],
+      [
+        "su",
+        "b"
+      ],
+      [
+        "su",
+        "ccess"
+      ],
+      [
+        "iv",
+        "es"
+      ],
+      [
+        "ive",
+        "ly"
+      ],
+      [
+        "end",
+        "s"
+      ],
+      [
+        "ind",
+        "ustr"
+      ],
+      [
+        "ris",
+        "e"
+      ],
+      [
+        "with",
+        "in"
+      ],
+      [
+        "gr",
+        "ow"
+      ],
+      [
+        "ist",
+        "ic"
+      ],
+      [
+        "port",
+        "un"
+      ],
+      [
+        "op",
+        "portun"
+      ],
+      [
+        "mon",
+        "ey"
+      ],
+      [
+        "mon",
+        "etary"
+      ],
+      [
+        "rat",
+        "ios"
+      ],
+      [
+        "sec",
+        "ond"
+      ],
+      [
+        "out",
+        "perform"
+      ],
+      [
+        "Com",
+        "mon"
+      ],
+      [
+        "fer",
+        "red"
+      ],
+      [
+        "indic",
+        "es"
+      ],
+      [
+        "indic",
+        "ates"
+      ],
+      [
+        "cr",
+        "oss"
+      ],
+      [
+        "ret",
+        "ail"
+      ],
+      [
+        "significant",
+        "ly"
+      ],
+      [
+        "man",
+        "y"
+      ],
+      [
+        "ici",
+        "p"
+      ],
+      [
+        "oth",
+        "ers"
+      ],
+      [
+        "co",
+        "st"
+      ],
+      [
+        "co",
+        "sts"
+      ],
+      [
+        "co",
+        "gn"
+      ],
+      [
+        "posit",
+        "ions"
+      ],
+      [
+        "dis",
+        "c"
+      ],
+      [
+        "dis",
+        "trib"
+      ],
+      [
+        "ib",
+        "le"
+      ],
+      [
+        "ib",
+        "ility"
+      ],
+      [
+        "min",
+        "imum"
+      ],
+      [
+        "oper",
+        "ate"
+      ],
+      [
+        "oper",
+        "ates"
+      ],
+      [
+        "differ",
+        "ence"
+      ],
+      [
+        "Th",
+        "is"
+      ],
+      [
+        "fl",
+        "ation"
+      ],
+      [
+        "ip",
+        "le"
+      ],
+      [
+        "res",
+        "earch"
+      ],
+      [
+        "fut",
+        "ures"
+      ],
+      [
+        "ser",
+        "ve"
+      ],
+      [
+        "curr",
+        "ent"
+      ],
+      [
+        "requi",
+        "red"
+      ],
+      [
+        "Wh",
+        "en"
+      ],
+      [
+        "el",
+        "ectronic"
+      ],
+      [
+        "fall",
+        "s"
+      ],
+      [
+        "pay",
+        "ment"
+      ],
+      [
+        "techn",
+        "ology"
+      ],
+      [
+        "trans",
+        "actions"
+      ],
+      [
+        "fir",
+        "st"
+      ],
+      [
+        "loss",
+        "es"
+      ],
+      [
+        "declin",
+        "ing"
+      ],
+      [
+        "Gr",
+        "owth"
+      ],
+      [
+        "Techn",
+        "ical"
+      ],
+      [
+        "bear",
+        "ish"
+      ],
+      [
+        "nat",
+        "ural"
+      ],
+      [
+        "pred",
+        "ict"
+      ],
+      [
+        "will",
+        "ing"
+      ],
+      [
+        "yi",
+        "eld"
+      ],
+      [
+        "commod",
+        "ities"
+      ],
+      [
+        "level",
+        "s"
+      ],
+      [
+        "prov",
+        "ide"
+      ],
+      [
+        "require",
+        "ments"
+      ],
+      [
+        "An",
+        "aly"
+      ],
+      [
+        "Le",
+        "vel"
+      ],
+      [
+        "Sec",
+        "urities"
+      ],
+      [
+        "Un",
+        "ited"
+      ],
+      [
+        "bi",
+        "ases"
+      ],
+      [
+        "bro",
+        "ker"
+      ],
+      [
+        "down",
+        "tur"
+      ],
+      [
+        "hed",
+        "ging"
+      ],
+      [
+        "mis",
+        "sion"
+      ],
+      [
+        "po",
+        "ols"
+      ],
+      [
+        "plo",
+        "y"
+      ],
+      [
+        "te",
+        "en"
+      ],
+      [
+        "thir",
+        "ty"
+      ],
+      [
+        "ident",
+        "ify"
+      ],
+      [
+        "metr",
+        "ics"
+      ],
+      [
+        "maint",
+        "ain"
+      ],
+      [
+        "prod",
+        "uc"
+      ],
+      [
+        "spl",
+        "its"
+      ],
+      [
+        "fundament",
+        "als"
+      ],
+      [
+        "inte",
+        "gr"
+      ],
+      [
+        "histor",
+        "ically"
+      ],
+      [
+        "particular",
+        "ly"
+      ],
+      [
+        "mathemat",
+        "ical"
+      ],
+      [
+        "EP",
+        "S"
+      ],
+      [
+        "Ear",
+        "nings"
+      ],
+      [
+        "IP",
+        "O"
+      ],
+      [
+        "NY",
+        "SE"
+      ],
+      [
+        "REI",
+        "Ts"
+      ],
+      [
+        "Tes",
+        "la"
+      ],
+      [
+        "af",
+        "ter"
+      ],
+      [
+        "amon",
+        "g"
+      ],
+      [
+        "bor",
+        "row"
+      ],
+      [
+        "ev",
+        "ents"
+      ],
+      [
+        "goo",
+        "ds"
+      ],
+      [
+        "obl",
+        "ig"
+      ],
+      [
+        "pot",
+        "ential"
+      ],
+      [
+        "vir",
+        "on"
+      ],
+      [
+        "trig",
+        "ger"
+      ],
+      [
+        "pract",
+        "ices"
+      ],
+      [
+        "geop",
+        "olitical"
+      ],
+      [
+        "import",
+        "ant"
+      ],
+      [
+        "devel",
+        "op"
+      ],
+      [
+        "consu",
+        "mer"
+      ],
+      [
+        "contract",
+        "s"
+      ],
+      [
+        "success",
+        "ful"
+      ],
+      [
+        "opportun",
+        "ities"
+      ],
+      [
+        "distrib",
+        "ut"
+      ],
+      [
+        "downtur",
+        "ns"
+      ],
+      [
+        "A",
+        "l"
+      ],
+      [
+        "A",
+        "u"
+      ],
+      [
+        "A",
+        "ma"
+      ],
+      [
+        "A",
+        "verage"
+      ],
+      [
+        "A",
+        "PM"
+      ],
+      [
+        "B",
+        "ear"
+      ],
+      [
+        "B",
+        "ond"
+      ],
+      [
+        "C",
+        "orporate"
+      ],
+      [
+        "C",
+        "APM"
+      ],
+      [
+        "D",
+        "ivid"
+      ],
+      [
+        "D",
+        "ark"
+      ],
+      [
+        "E",
+        "S"
+      ],
+      [
+        "F",
+        "ut"
+      ],
+      [
+        "F",
+        "und"
+      ],
+      [
+        "G",
+        "oo"
+      ],
+      [
+        "G",
+        "overn"
+      ],
+      [
+        "G",
+        "lobal"
+      ],
+      [
+        "H",
+        "igh"
+      ],
+      [
+        "J",
+        "a"
+      ],
+      [
+        "J",
+        "o"
+      ],
+      [
+        "M",
+        "o"
+      ],
+      [
+        "M",
+        "er"
+      ],
+      [
+        "M",
+        "ic"
+      ],
+      [
+        "M",
+        "ay"
+      ],
+      [
+        "N",
+        "ew"
+      ],
+      [
+        "O",
+        "pt"
+      ],
+      [
+        "P",
+        "Y"
+      ],
+      [
+        "Q",
+        "Q"
+      ],
+      [
+        "R",
+        "e"
+      ],
+      [
+        "S",
+        "e"
+      ],
+      [
+        "S",
+        "w"
+      ],
+      [
+        "S",
+        "entiment"
+      ],
+      [
+        "S",
+        "top"
+      ],
+      [
+        "U",
+        "SD"
+      ],
+      [
+        "V",
+        "al"
+      ],
+      [
+        "W",
+        "or"
+      ],
+      [
+        "Y",
+        "or"
+      ],
+      [
+        "a",
+        "th"
+      ],
+      [
+        "a",
+        "way"
+      ],
+      [
+        "b",
+        "an"
+      ],
+      [
+        "b",
+        "re"
+      ],
+      [
+        "b",
+        "le"
+      ],
+      [
+        "b",
+        "ack"
+      ],
+      [
+        "b",
+        "oth"
+      ],
+      [
+        "b",
+        "ond"
+      ],
+      [
+        "c",
+        "es"
+      ],
+      [
+        "c",
+        "ate"
+      ],
+      [
+        "c",
+        "le"
+      ],
+      [
+        "c",
+        "rat"
+      ],
+      [
+        "c",
+        "arr"
+      ],
+      [
+        "d",
+        "o"
+      ],
+      [
+        "d",
+        "y"
+      ],
+      [
+        "d",
+        "es"
+      ],
+      [
+        "d",
+        "er"
+      ],
+      [
+        "d",
+        "at"
+      ],
+      [
+        "d",
+        "om"
+      ],
+      [
+        "d",
+        "uct"
+      ],
+      [
+        "e",
+        "e"
+      ],
+      [
+        "e",
+        "ing"
+      ],
+      [
+        "e",
+        "ach"
+      ],
+      [
+        "f",
+        "ear"
+      ],
+      [
+        "f",
+        "oc"
+      ],
+      [
+        "f",
+        "lo"
+      ],
+      [
+        "f",
+        "air"
+      ],
+      [
+        "f",
+        "ix"
+      ],
+      [
+        "g",
+        "as"
+      ],
+      [
+        "g",
+        "ence"
+      ],
+      [
+        "g",
+        "ative"
+      ],
+      [
+        "g",
+        "lobal"
+      ],
+      [
+        "h",
+        "al"
+      ],
+      [
+        "h",
+        "and"
+      ],
+      [
+        "h",
+        "ab"
+      ],
+      [
+        "h",
+        "ns"
+      ],
+      [
+        "h",
+        "yp"
+      ],
+      [
+        "h",
+        "ys"
+      ],
+      [
+        "i",
+        "ation"
+      ],
+      [
+        "i",
+        "qu"
+      ],
+      [
+        "j",
+        "ust"
+      ],
+      [
+        "k",
+        "ly"
+      ],
+      [
+        "k",
+        "ers"
+      ],
+      [
+        "l",
+        "er"
+      ],
+      [
+        "l",
+        "ic"
+      ],
+      [
+        "l",
+        "ess"
+      ],
+      [
+        "l",
+        "ast"
+      ],
+      [
+        "m",
+        "i"
+      ],
+      [
+        "m",
+        "u"
+      ],
+      [
+        "m",
+        "ill"
+      ],
+      [
+        "m",
+        "ech"
+      ],
+      [
+        "m",
+        "ust"
+      ],
+      [
+        "m",
+        "ult"
+      ],
+      [
+        "n",
+        "on"
+      ],
+      [
+        "n",
+        "ing"
+      ],
+      [
+        "n",
+        "ear"
+      ],
+      [
+        "n",
+        "am"
+      ],
+      [
+        "o",
+        "k"
+      ],
+      [
+        "o",
+        "id"
+      ],
+      [
+        "o",
+        "ve"
+      ],
+      [
+        "o",
+        "il"
+      ],
+      [
+        "o",
+        "ard"
+      ],
+      [
+        "p",
+        "on"
+      ],
+      [
+        "p",
+        "and"
+      ],
+      [
+        "p",
+        "ol"
+      ],
+      [
+        "p",
+        "port"
+      ],
+      [
+        "p",
+        "hys"
+      ],
+      [
+        "r",
+        "ul"
+      ],
+      [
+        "r",
+        "ot"
+      ],
+      [
+        "r",
+        "oss"
+      ],
+      [
+        "r",
+        "ais"
+      ],
+      [
+        "r",
+        "ole"
+      ],
+      [
+        "s",
+        "w"
+      ],
+      [
+        "s",
+        "al"
+      ],
+      [
+        "s",
+        "ing"
+      ],
+      [
+        "s",
+        "et"
+      ],
+      [
+        "s",
+        "im"
+      ],
+      [
+        "s",
+        "ess"
+      ],
+      [
+        "s",
+        "imp"
+      ],
+      [
+        "s",
+        "top"
+      ],
+      [
+        "s",
+        "ize"
+      ],
+      [
+        "s",
+        "ome"
+      ],
+      [
+        "t",
+        "re"
+      ],
+      [
+        "t",
+        "ect"
+      ],
+      [
+        "t",
+        "em"
+      ],
+      [
+        "u",
+        "p"
+      ],
+      [
+        "u",
+        "se"
+      ],
+      [
+        "u",
+        "de"
+      ],
+      [
+        "u",
+        "als"
+      ],
+      [
+        "v",
+        "ices"
+      ],
+      [
+        "w",
+        "ant"
+      ],
+      [
+        "w",
+        "ider"
+      ],
+      [
+        "x",
+        "im"
+      ],
+      [
+        "z",
+        "e"
+      ],
+      [
+        "z",
+        "on"
+      ],
+      [
+        "in",
+        "to"
+      ],
+      [
+        "in",
+        "str"
+      ],
+      [
+        "in",
+        "flation"
+      ],
+      [
+        "an",
+        "ing"
+      ],
+      [
+        "an",
+        "gu"
+      ],
+      [
+        "es",
+        "is"
+      ],
+      [
+        "th",
+        "or"
+      ],
+      [
+        "th",
+        "ough"
+      ],
+      [
+        "th",
+        "ree"
+      ],
+      [
+        "th",
+        "ous"
+      ],
+      [
+        "er",
+        "t"
+      ],
+      [
+        "er",
+        "al"
+      ],
+      [
+        "er",
+        "ve"
+      ],
+      [
+        "ar",
+        "ent"
+      ],
+      [
+        "ar",
+        "ning"
+      ],
+      [
+        "or",
+        "ing"
+      ],
+      [
+        "al",
+        "ers"
+      ],
+      [
+        "al",
+        "one"
+      ],
+      [
+        "al",
+        "gorithmic"
+      ],
+      [
+        "en",
+        "su"
+      ],
+      [
+        "en",
+        "ges"
+      ],
+      [
+        "en",
+        "viron"
+      ],
+      [
+        "at",
+        "ic"
+      ],
+      [
+        "ic",
+        "y"
+      ],
+      [
+        "ic",
+        "kly"
+      ],
+      [
+        "the",
+        "ory"
+      ],
+      [
+        "to",
+        "mat"
+      ],
+      [
+        "to",
+        "ler"
+      ],
+      [
+        "re",
+        "l"
+      ],
+      [
+        "re",
+        "ve"
+      ],
+      [
+        "re",
+        "le"
+      ],
+      [
+        "re",
+        "li"
+      ],
+      [
+        "re",
+        "ce"
+      ],
+      [
+        "re",
+        "fl"
+      ],
+      [
+        "re",
+        "ferred"
+      ],
+      [
+        "re",
+        "cogn"
+      ],
+      [
+        "and",
+        "s"
+      ],
+      [
+        "it",
+        "ion"
+      ],
+      [
+        "it",
+        "ial"
+      ],
+      [
+        "it",
+        "ive"
+      ],
+      [
+        "it",
+        "ative"
+      ],
+      [
+        "ent",
+        "ed"
+      ],
+      [
+        "as",
+        "ing"
+      ],
+      [
+        "as",
+        "ter"
+      ],
+      [
+        "tr",
+        "ack"
+      ],
+      [
+        "et",
+        "t"
+      ],
+      [
+        "est",
+        "im"
+      ],
+      [
+        "of",
+        "t"
+      ],
+      [
+        "pr",
+        "inc"
+      ],
+      [
+        "pr",
+        "iv"
+      ],
+      [
+        "com",
+        "b"
+      ],
+      [
+        "ly",
+        "ing"
+      ],
+      [
+        "ad",
+        "dit"
+      ],
+      [
+        "for",
+        "e"
+      ],
+      [
+        "for",
+        "ex"
+      ],
+      [
+        "for",
+        "ward"
+      ],
+      [
+        "id",
+        "ers"
+      ],
+      [
+        "id",
+        "ance"
+      ],
+      [
+        "ch",
+        "ar"
+      ],
+      [
+        "ch",
+        "all"
+      ],
+      [
+        "ch",
+        "art"
+      ],
+      [
+        "ch",
+        "ine"
+      ],
+      [
+        "ex",
+        "per"
+      ],
+      [
+        "ex",
+        "ist"
+      ],
+      [
+        "ex",
+        "cess"
+      ],
+      [
+        "ex",
+        "ibility"
+      ],
+      [
+        "ex",
+        "tre"
+      ],
+      [
+        "st",
+        "and"
+      ],
+      [
+        "st",
+        "im"
+      ],
+      [
+        "il",
+        "ar"
+      ],
+      [
+        "il",
+        "it"
+      ],
+      [
+        "ment",
+        "al"
+      ],
+      [
+        "ver",
+        "al"
+      ],
+      [
+        "ver",
+        "sely"
+      ],
+      [
+        "pan",
+        "ic"
+      ],
+      [
+        "pan",
+        "ts"
+      ],
+      [
+        "pan",
+        "ese"
+      ],
+      [
+        "he",
+        "alth"
+      ],
+      [
+        "ou",
+        "n"
+      ],
+      [
+        "se",
+        "ven"
+      ],
+      [
+        "se",
+        "eing"
+      ],
+      [
+        "se",
+        "veral"
+      ],
+      [
+        "ate",
+        "ly"
+      ],
+      [
+        "ac",
+        "qu"
+      ],
+      [
+        "ac",
+        "ross"
+      ],
+      [
+        "le",
+        "ment"
+      ],
+      [
+        "le",
+        "verage"
+      ],
+      [
+        "le",
+        "arning"
+      ],
+      [
+        "qu",
+        "ant"
+      ],
+      [
+        "qu",
+        "arter"
+      ],
+      [
+        "qu",
+        "ickly"
+      ],
+      [
+        "ul",
+        "ation"
+      ],
+      [
+        "ul",
+        "ts"
+      ],
+      [
+        "de",
+        "p"
+      ],
+      [
+        "con",
+        "sec"
+      ],
+      [
+        "con",
+        "ce"
+      ],
+      [
+        "con",
+        "duct"
+      ],
+      [
+        "os",
+        "ure"
+      ],
+      [
+        "ut",
+        "ive"
+      ],
+      [
+        "ut",
+        "ilities"
+      ],
+      [
+        "all",
+        "oc"
+      ],
+      [
+        "ir",
+        "cu"
+      ],
+      [
+        "me",
+        "et"
+      ],
+      [
+        "me",
+        "aning"
+      ],
+      [
+        "su",
+        "pp"
+      ],
+      [
+        "su",
+        "pport"
+      ],
+      [
+        "ant",
+        "s"
+      ],
+      [
+        "iv",
+        "ity"
+      ],
+      [
+        "ess",
+        "ential"
+      ],
+      [
+        "over",
+        "eign"
+      ],
+      [
+        "form",
+        "ed"
+      ],
+      [
+        "form",
+        "ation"
+      ],
+      [
+        "form",
+        "ul"
+      ],
+      [
+        "form",
+        "ations"
+      ],
+      [
+        "ma",
+        "jor"
+      ],
+      [
+        "ma",
+        "kers"
+      ],
+      [
+        "ma",
+        "chine"
+      ],
+      [
+        "pro",
+        "tect"
+      ],
+      [
+        "act",
+        "ivity"
+      ],
+      [
+        "ll",
+        "ig"
+      ],
+      [
+        "li",
+        "ab"
+      ],
+      [
+        "ris",
+        "es"
+      ],
+      [
+        "gr",
+        "own"
+      ],
+      [
+        "gr",
+        "oss"
+      ],
+      [
+        "ist",
+        "ed"
+      ],
+      [
+        "ist",
+        "ently"
+      ],
+      [
+        "port",
+        "ion"
+      ],
+      [
+        "bu",
+        "il"
+      ],
+      [
+        "sell",
+        "er"
+      ],
+      [
+        "ab",
+        "ility"
+      ],
+      [
+        "ab",
+        "ove"
+      ],
+      [
+        "enc",
+        "ed"
+      ],
+      [
+        "old",
+        "est"
+      ],
+      [
+        "buy",
+        "s"
+      ],
+      [
+        "exchan",
+        "ging"
+      ],
+      [
+        "typ",
+        "es"
+      ],
+      [
+        "be",
+        "low"
+      ],
+      [
+        "be",
+        "fore"
+      ],
+      [
+        "uc",
+        "ial"
+      ],
+      [
+        "cur",
+        "ve"
+      ],
+      [
+        "high",
+        "s"
+      ],
+      [
+        "high",
+        "est"
+      ],
+      [
+        "ha",
+        "vi"
+      ],
+      [
+        "sign",
+        "al"
+      ],
+      [
+        "risk",
+        "s"
+      ],
+      [
+        "Com",
+        "mod"
+      ],
+      [
+        "Com",
+        "mission"
+      ],
+      [
+        "ke",
+        "y"
+      ],
+      [
+        "exp",
+        "osure"
+      ],
+      [
+        "hold",
+        "er"
+      ],
+      [
+        "analy",
+        "st"
+      ],
+      [
+        "cr",
+        "yptocurrency"
+      ],
+      [
+        "cr",
+        "iter"
+      ],
+      [
+        "cr",
+        "ucial"
+      ],
+      [
+        "em",
+        "ics"
+      ],
+      [
+        "em",
+        "ploy"
+      ],
+      [
+        "dol",
+        "o"
+      ],
+      [
+        "equ",
+        "ities"
+      ],
+      [
+        "ici",
+        "pants"
+      ],
+      [
+        "percent",
+        "age"
+      ],
+      [
+        "ail",
+        "ing"
+      ],
+      [
+        "oth",
+        "esis"
+      ],
+      [
+        "cons",
+        "istently"
+      ],
+      [
+        "Mar",
+        "gin"
+      ],
+      [
+        "Stock",
+        "s"
+      ],
+      [
+        "aver",
+        "ages"
+      ],
+      [
+        "bas",
+        "ic"
+      ],
+      [
+        "bas",
+        "is"
+      ],
+      [
+        "fol",
+        "low"
+      ],
+      [
+        "ne",
+        "ed"
+      ],
+      [
+        "ne",
+        "gative"
+      ],
+      [
+        "comp",
+        "et"
+      ],
+      [
+        "comp",
+        "ut"
+      ],
+      [
+        "increas",
+        "es"
+      ],
+      [
+        "sharehold",
+        "er"
+      ],
+      [
+        "gener",
+        "ation"
+      ],
+      [
+        "gener",
+        "ate"
+      ],
+      [
+        "gener",
+        "ated"
+      ],
+      [
+        "av",
+        "oid"
+      ],
+      [
+        "posit",
+        "e"
+      ],
+      [
+        "ag",
+        "ing"
+      ],
+      [
+        "cou",
+        "ld"
+      ],
+      [
+        "lin",
+        "es"
+      ],
+      [
+        "oper",
+        "ating"
+      ],
+      [
+        "read",
+        "ing"
+      ],
+      [
+        "expect",
+        "ation"
+      ],
+      [
+        "expect",
+        "ations"
+      ],
+      [
+        "retur",
+        "ns"
+      ],
+      [
+        "bet",
+        "ter"
+      ],
+      [
+        "eff",
+        "ect"
+      ],
+      [
+        "fl",
+        "exibility"
+      ],
+      [
+        "res",
+        "ults"
+      ],
+      [
+        "tran",
+        "sp"
+      ],
+      [
+        "mod",
+        "ern"
+      ],
+      [
+        "meas",
+        "ure"
+      ],
+      [
+        "portfol",
+        "ios"
+      ],
+      [
+        "spec",
+        "ulation"
+      ],
+      [
+        "au",
+        "tomat"
+      ],
+      [
+        "pre",
+        "v"
+      ],
+      [
+        "pre",
+        "vi"
+      ],
+      [
+        "ser",
+        "vices"
+      ],
+      [
+        "reg",
+        "ul"
+      ],
+      [
+        "report",
+        "ing"
+      ],
+      [
+        "valu",
+        "ed"
+      ],
+      [
+        "valu",
+        "ations"
+      ],
+      [
+        "patter",
+        "n"
+      ],
+      [
+        "cl",
+        "os"
+      ],
+      [
+        "el",
+        "ds"
+      ],
+      [
+        "ful",
+        "ly"
+      ],
+      [
+        "pl",
+        "ay"
+      ],
+      [
+        "pl",
+        "atforms"
+      ],
+      [
+        "pay",
+        "ing"
+      ],
+      [
+        "part",
+        "icipants"
+      ],
+      [
+        "sect",
+        "or"
+      ],
+      [
+        "techn",
+        "ical"
+      ],
+      [
+        "techn",
+        "iqu"
+      ],
+      [
+        "inform",
+        "ed"
+      ],
+      [
+        "appro",
+        "pri"
+      ],
+      [
+        "ight",
+        "ed"
+      ],
+      [
+        "world",
+        "wide"
+      ],
+      [
+        "new",
+        "s"
+      ],
+      [
+        "impact",
+        "ing"
+      ],
+      [
+        "effici",
+        "ency"
+      ],
+      [
+        "trans",
+        "formed"
+      ],
+      [
+        "profit",
+        "ability"
+      ],
+      [
+        "VI",
+        "D"
+      ],
+      [
+        "fif",
+        "teen"
+      ],
+      [
+        "fir",
+        "ms"
+      ],
+      [
+        "gu",
+        "idance"
+      ],
+      [
+        "mic",
+        "ros"
+      ],
+      [
+        "ins",
+        "ic"
+      ],
+      [
+        "ins",
+        "ider"
+      ],
+      [
+        "accoun",
+        "ts"
+      ],
+      [
+        "indicat",
+        "or"
+      ],
+      [
+        "declin",
+        "es"
+      ],
+      [
+        "20",
+        "20"
+      ],
+      [
+        "cre",
+        "ate"
+      ],
+      [
+        "cre",
+        "ated"
+      ],
+      [
+        "go",
+        "als"
+      ],
+      [
+        "yi",
+        "elds"
+      ],
+      [
+        "commod",
+        "ity"
+      ],
+      [
+        "prov",
+        "id"
+      ],
+      [
+        "reduc",
+        "ing"
+      ],
+      [
+        "reduc",
+        "ed"
+      ],
+      [
+        "increasing",
+        "ly"
+      ],
+      [
+        "system",
+        "atic"
+      ],
+      [
+        "require",
+        "ment"
+      ],
+      [
+        "200",
+        "9"
+      ],
+      [
+        "Con",
+        "versely"
+      ],
+      [
+        "Qu",
+        "ant"
+      ],
+      [
+        "Tr",
+        "ust"
+      ],
+      [
+        "ak",
+        "ers"
+      ],
+      [
+        "bull",
+        "ish"
+      ],
+      [
+        "evalu",
+        "ate"
+      ],
+      [
+        "evalu",
+        "ating"
+      ],
+      [
+        "list",
+        "ing"
+      ],
+      [
+        "ros",
+        "oft"
+      ],
+      [
+        "state",
+        "ment"
+      ],
+      [
+        "app",
+        "ear"
+      ],
+      [
+        "conver",
+        "t"
+      ],
+      [
+        "individ",
+        "ual"
+      ],
+      [
+        "individ",
+        "uals"
+      ],
+      [
+        "optim",
+        "istic"
+      ],
+      [
+        "wee",
+        "k"
+      ],
+      [
+        "wee",
+        "ks"
+      ],
+      [
+        "Invest",
+        "ors"
+      ],
+      [
+        "purch",
+        "ases"
+      ],
+      [
+        "Bu",
+        "y"
+      ],
+      [
+        "Cr",
+        "yptocurrency"
+      ],
+      [
+        "Ind",
+        "ex"
+      ],
+      [
+        "Mod",
+        "ern"
+      ],
+      [
+        "Pr",
+        "of"
+      ],
+      [
+        "Sh",
+        "ort"
+      ],
+      [
+        "St",
+        "ates"
+      ],
+      [
+        "Vol",
+        "atility"
+      ],
+      [
+        "cy",
+        "cle"
+      ],
+      [
+        "determin",
+        "e"
+      ],
+      [
+        "fac",
+        "ilit"
+      ],
+      [
+        "fact",
+        "ors"
+      ],
+      [
+        "found",
+        "ed"
+      ],
+      [
+        "giv",
+        "en"
+      ],
+      [
+        "lim",
+        "it"
+      ],
+      [
+        "med",
+        "ia"
+      ],
+      [
+        "whe",
+        "at"
+      ],
+      [
+        "intr",
+        "insic"
+      ],
+      [
+        "influ",
+        "enced"
+      ],
+      [
+        "ann",
+        "ual"
+      ],
+      [
+        "ens",
+        "ures"
+      ],
+      [
+        "recess",
+        "ions"
+      ],
+      [
+        "extend",
+        "ed"
+      ],
+      [
+        "statist",
+        "ical"
+      ],
+      [
+        "sel",
+        "ect"
+      ],
+      [
+        "qual",
+        "ity"
+      ],
+      [
+        "conf",
+        "id"
+      ],
+      [
+        "allow",
+        "s"
+      ],
+      [
+        "metho",
+        "dolo"
+      ],
+      [
+        "industr",
+        "y"
+      ],
+      [
+        "integr",
+        "ation"
+      ],
+      [
+        "IPO",
+        "s"
+      ],
+      [
+        "oblig",
+        "ations"
+      ],
+      [
+        "trigger",
+        "ed"
+      ],
+      [
+        "develop",
+        "ed"
+      ],
+      [
+        "Al",
+        "gorithmic"
+      ],
+      [
+        "Ama",
+        "zon"
+      ],
+      [
+        "ES",
+        "G"
+      ],
+      [
+        "Fut",
+        "ures"
+      ],
+      [
+        "Govern",
+        "ment"
+      ],
+      [
+        "Ja",
+        "panese"
+      ],
+      [
+        "Jo",
+        "hns"
+      ],
+      [
+        "Mic",
+        "rosoft"
+      ],
+      [
+        "Opt",
+        "ions"
+      ],
+      [
+        "Sw",
+        "ing"
+      ],
+      [
+        "Val",
+        "ue"
+      ],
+      [
+        "Wor",
+        "king"
+      ],
+      [
+        "Yor",
+        "k"
+      ],
+      [
+        "ban",
+        "ks"
+      ],
+      [
+        "bre",
+        "akers"
+      ],
+      [
+        "cate",
+        "gor"
+      ],
+      [
+        "dy",
+        "nam"
+      ],
+      [
+        "dat",
+        "a"
+      ],
+      [
+        "fix",
+        "ed"
+      ],
+      [
+        "hyp",
+        "othesis"
+      ],
+      [
+        "mu",
+        "ch"
+      ],
+      [
+        "mech",
+        "an"
+      ],
+      [
+        "pol",
+        "icy"
+      ],
+      [
+        "rul",
+        "es"
+      ],
+      [
+        "rot",
+        "ation"
+      ],
+      [
+        "sw",
+        "ings"
+      ],
+      [
+        "sal",
+        "es"
+      ],
+      [
+        "sing",
+        "le"
+      ],
+      [
+        "sim",
+        "ilar"
+      ],
+      [
+        "toler",
+        "ance"
+      ],
+      [
+        "reve",
+        "al"
+      ],
+      [
+        "reli",
+        "able"
+      ],
+      [
+        "refl",
+        "ect"
+      ],
+      [
+        "princ",
+        "iple"
+      ],
+      [
+        "priv",
+        "ate"
+      ],
+      [
+        "addit",
+        "ional"
+      ],
+      [
+        "chall",
+        "enges"
+      ],
+      [
+        "exper",
+        "i"
+      ],
+      [
+        "extre",
+        "me"
+      ],
+      [
+        "stim",
+        "ul"
+      ],
+      [
+        "acqu",
+        "is"
+      ],
+      [
+        "consec",
+        "utive"
+      ],
+      [
+        "alloc",
+        "ation"
+      ],
+      [
+        "ircu",
+        "it"
+      ],
+      [
+        "supp",
+        "ly"
+      ],
+      [
+        "liab",
+        "ilities"
+      ],
+      [
+        "havi",
+        "or"
+      ],
+      [
+        "automat",
+        "ically"
+      ],
+      [
+        "previ",
+        "ous"
+      ],
+      [
+        "techniqu",
+        "es"
+      ],
+      [
+        "appropri",
+        "ate"
+      ],
+      [
+        "micros",
+        "tructure"
+      ],
+      [
+        "Johns",
+        "on"
+      ],
+      [
+        "dynam",
+        "ics"
+      ]
+    ]
+  }
+}
